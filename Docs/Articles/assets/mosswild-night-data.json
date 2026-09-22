@@ -1,0 +1,4954 @@
+{
+  "source_session": "20260919-172604-EE71FCF0D64793ED76C71E8724002C6E",
+  "source_trace": "Saved/BrainLab/sessions/20260919-172604-EE71FCF0D64793ED76C71E8724002C6E/trace.jsonl",
+  "sampling": "Every 30 world seconds plus both sides of each population change; no smoothing.",
+  "population": [
+    {
+      "world_seconds": 0,
+      "counts": [
+        3,
+        3
+      ]
+    },
+    {
+      "world_seconds": 30.17089080810547,
+      "counts": [
+        3,
+        3
+      ]
+    },
+    {
+      "world_seconds": 32.188865661621094,
+      "counts": [
+        3,
+        3
+      ]
+    },
+    {
+      "world_seconds": 34.2007942199707,
+      "counts": [
+        4,
+        3
+      ]
+    },
+    {
+      "world_seconds": 36.20209884643555,
+      "counts": [
+        4,
+        5
+      ]
+    },
+    {
+      "world_seconds": 38.22395706176758,
+      "counts": [
+        4,
+        6
+      ]
+    },
+    {
+      "world_seconds": 46.26380157470703,
+      "counts": [
+        4,
+        6
+      ]
+    },
+    {
+      "world_seconds": 48.26692581176758,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 60.3829345703125,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 62.38411331176758,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 92.58177947998047,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 122.7636489868164,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 152.8954620361328,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 183.09913635253906,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 213.29493713378906,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 243.4578399658203,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 273.65057373046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 303.8115234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 333.9700622558594,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 364.1444396972656,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 394.3701477050781,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 424.518798828125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 454.6571350097656,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 484.824951171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 514.9843139648438,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 545.1467895507812,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 575.3414306640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 605.5230712890625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 635.6739501953125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 665.814453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 696.0050048828125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 726.1438598632812,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 756.3240966796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 786.49609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 816.6321411132812,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 846.7932739257812,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 876.9124755859375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 907.0549926757812,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 937.2515258789062,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 967.4332885742188,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 997.5892944335938,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1027.786865234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1057.9666748046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1088.164306640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1118.3470458984375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1148.5181884765625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1178.6788330078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1208.8516845703125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1239.010986328125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1269.1507568359375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1299.31982421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1329.5240478515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1359.674072265625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1389.8338623046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1419.9931640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1450.14501953125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1480.284912109375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1510.4327392578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1540.614990234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1570.7728271484375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1600.9508056640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1631.149658203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1661.3431396484375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1691.4852294921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1721.700927734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1751.8800048828125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1782.0067138671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1812.1734619140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1842.3770751953125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1872.5509033203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1902.752685546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1932.8154296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1963.0006103515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 1993.16064453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2023.287109375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2053.4052734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2083.58251953125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2113.66748046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2143.826171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2173.987060546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2204.133056640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2234.24853515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2246.295654296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2248.2958984375,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2268.40771484375,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2270.42138671875,
+      "counts": [
+        4,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2300.62744140625,
+      "counts": [
+        4,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2330.7412109375,
+      "counts": [
+        4,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2336.783203125,
+      "counts": [
+        4,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2338.784423828125,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2368.9560546875,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2389.04931640625,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2391.072021484375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2421.266845703125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2451.361083984375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2481.537109375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2511.66796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2541.849365234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2571.98681640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2602.111328125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2632.29248046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2662.439697265625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2692.623779296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2722.797607421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2752.995361328125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2783.129638671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2813.27734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2843.434814453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2873.60693359375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2903.767578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2933.98974609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2964.099853515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 2994.276611328125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3024.40576171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3054.58935546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3084.72900390625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3114.809814453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3144.968994140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3175.1044921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3205.275146484375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3235.435302734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3265.593017578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3295.696533203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3325.827392578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3356.00048828125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3386.159912109375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3416.321044921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3446.542236328125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3476.70166015625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3506.87353515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3537.054931640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3567.19140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3597.3642578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3627.504150390625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3657.718994140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3687.854736328125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3718.021728515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3748.204833984375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3778.387939453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3808.51806640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3838.6162109375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3868.7744140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3898.857421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3929.038330078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3959.228515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 3989.430419921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4019.62060546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4049.80224609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4079.979736328125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4110.15087890625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4140.33203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4170.45849609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4200.63916015625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4230.8330078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4261.0107421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4291.17626953125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4321.33642578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4351.45703125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4381.60302734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4411.701171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4441.83837890625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4471.9892578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4502.12939453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4532.26708984375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4562.36572265625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4592.47607421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4622.57373046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4652.7080078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4682.82568359375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4712.99951171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4743.13623046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4773.21337890625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4803.40185546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4833.5234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4863.669921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4893.80419921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4923.9853515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4954.1591796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 4984.33837890625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5014.5419921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5044.701171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5074.89404296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5105.1025390625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5135.29638671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5153.43798828125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5155.43896484375,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5161.46142578125,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5163.46240234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5193.61279296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5223.7802734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5253.90380859375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5284.09619140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5314.2607421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5344.3974609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5374.55029296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5404.732421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5434.87841796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5465.080078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5495.177734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5525.3662109375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5555.43798828125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5585.6279296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5615.79736328125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5645.98046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5676.12548828125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5706.2548828125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5736.3720703125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5766.51806640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5796.65478515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5826.77490234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5856.88525390625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5887.08251953125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5917.21875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5947.3447265625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 5977.52685546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6007.66064453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6037.85205078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6068.03466796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6098.1591796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6128.27783203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6158.43408203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6188.5966796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6218.73486328125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6248.8798828125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6279.08154296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6309.2177734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6339.35888671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6369.4931640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6399.6376953125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6429.783203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6459.90478515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6490.06982421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6520.23486328125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6550.419921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6580.5283203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6610.685546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6640.85302734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6670.99462890625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6701.13037109375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6731.3232421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6761.39599609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6791.49853515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6821.64501953125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6851.83984375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6882.0029296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6912.1845703125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6942.32763671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 6972.51904296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7002.7099609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7032.8994140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7063.03857421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7093.15478515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7123.32275390625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7153.5244140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7183.71337890625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7213.92138671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7244.05224609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7274.19091796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7304.34716796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7334.49169921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7364.63134765625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7394.796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7424.9765625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7455.11083984375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7485.21142578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7515.37158203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7545.53173828125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7575.76953125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7605.91455078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7636.1240234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7666.296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7696.44677734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7726.56787109375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7756.7255859375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7786.88330078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7817.0458984375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7847.18994140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7877.3310546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7907.533203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7937.65625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7967.81298828125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 7997.9462890625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8028.0498046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8058.22802734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8088.33154296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8118.5205078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8148.681640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8178.865234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8208.94921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8239.1005859375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8269.2314453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8299.3505859375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8329.5234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8359.646484375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8389.763671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8419.8876953125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8449.982421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8480.1181640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8510.265625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8540.37109375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8570.513671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8600.5908203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8630.705078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8660.8125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8690.9404296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8721.0625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8751.22265625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8781.318359375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8811.44140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8841.5244140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8871.658203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8901.8115234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8931.9482421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8962.099609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 8992.2216796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9022.3154296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9052.4345703125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9082.5400390625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9112.6416015625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9142.7314453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9172.888671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9203.01171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9233.140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9263.3017578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9293.427734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9323.58203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9353.6875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9383.80078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9413.8955078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9444.041015625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9474.1142578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9504.2138671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9534.314453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9564.4033203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9594.4560546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9624.576171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9654.6767578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9684.8623046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9714.9609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9745.0126953125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9775.0751953125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9805.208984375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9835.3623046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9865.4326171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9895.5361328125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9925.6435546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9955.8037109375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 9985.90625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10016.0234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10046.154296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10076.2744140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10106.3974609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10136.4853515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10166.6337890625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10196.7529296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10226.8935546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10257.0517578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10287.2001953125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10317.318359375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10347.4609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10377.615234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10407.7763671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10437.8623046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10467.9111328125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10498.044921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10528.1962890625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10558.3388671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10588.4609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10618.6484375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10648.7412109375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10678.8603515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10709.013671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10739.19140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10769.291015625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10799.3828125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10829.53515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10859.7197265625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10889.853515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10919.9609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10950.0439453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 10980.2099609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11010.380859375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11040.52734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11070.6318359375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11100.7822265625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11130.921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11161.0185546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11191.1083984375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11221.228515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11251.3369140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11281.494140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11311.6123046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11341.7578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11371.818359375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11401.919921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11431.990234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11462.0830078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11492.3251953125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11522.427734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11552.5576171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11554.578125,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11580.673828125,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11582.6767578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11612.779296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11642.89453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11673.0322265625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11703.1728515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11733.3017578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11763.4521484375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11793.6025390625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11823.7060546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11853.8232421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11883.8818359375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11914.06640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11944.18359375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 11974.2685546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12004.3701171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12034.4482421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12064.53125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12094.5791015625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12124.6884765625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12154.8427734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12184.9716796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12215.1357421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12245.255859375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12275.4091796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12305.5908203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12335.708984375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12365.8603515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12395.9951171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12426.091796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12456.2138671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12486.3388671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12516.4755859375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12546.564453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12576.7216796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12606.85546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12637.0078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12667.1875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12697.3828125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12727.515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12757.59765625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12787.779296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12817.93359375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12848.0654296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12878.1630859375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12908.296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12938.431640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12968.603515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 12998.720703125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13028.8037109375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13058.90625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13089.0625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13119.1728515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13149.2451171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13179.3955078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13209.52734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13239.689453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13269.7763671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13299.8671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13330.0146484375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13360.197265625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13390.2978515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13420.4365234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13450.5478515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13480.7099609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13510.802734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13540.9326171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13571.0419921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13601.2001953125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13631.330078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13661.447265625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13691.5263671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13721.66796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13751.802734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13781.9033203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13812.0244140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13842.1845703125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13872.291015625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13902.4306640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13932.599609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13962.7001953125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 13992.837890625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14022.970703125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14053.109375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14083.2763671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14113.349609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14143.4619140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14173.6494140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14203.8193359375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14233.8994140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14264.02734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14294.1533203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14324.2841796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14354.3759765625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14384.494140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14414.6201171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14444.685546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14464.75,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14466.76953125,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14496.859375,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14516.962890625,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14518.966796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14549.1123046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14579.2333984375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14609.322265625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14623.3955078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14625.400390625,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14629.404296875,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14631.4267578125,
+      "counts": [
+        4,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14661.607421875,
+      "counts": [
+        4,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14691.75,
+      "counts": [
+        4,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14705.818359375,
+      "counts": [
+        4,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14707.822265625,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14737.982421875,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14748.0087890625,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14750.0107421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14780.1025390625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14810.189453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14840.2763671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14870.4267578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14900.52734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14930.62890625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14960.75390625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 14990.8359375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15020.9892578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15051.091796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15081.2490234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15111.3759765625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15141.4853515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15171.57421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15201.7216796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15231.8291015625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15261.9921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15292.1435546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15322.26171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15352.4072265625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15382.48046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15412.6220703125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15442.7177734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15472.830078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15502.9609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15533.1103515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15563.216796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15593.34765625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15623.4111328125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15653.5068359375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15683.6162109375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15713.7646484375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15743.86328125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15773.9931640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15804.1455078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15834.228515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15864.296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15894.427734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15924.5,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15954.654296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 15984.833984375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16014.9326171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16045.1015625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16075.1796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16105.3037109375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16135.427734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16165.482421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16195.5712890625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16225.7314453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16255.8525390625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16285.939453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16316.0693359375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16346.189453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16376.3681640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16406.482421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16436.623046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16466.794921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16496.921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16527.076171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16557.2578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16587.42578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16617.564453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16647.6875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16677.822265625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16707.978515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16738.103515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16768.228515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16798.37109375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16828.50390625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16858.673828125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16860.6875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16862.693359375,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16868.736328125,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16870.748046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16900.91015625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16931.037109375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16961.1640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 16991.3125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17021.47265625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17051.615234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17081.767578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17111.92578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17142.033203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17148.060546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17150.0703125,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17154.087890625,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17156.095703125,
+      "counts": [
+        4,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17186.21875,
+      "counts": [
+        4,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17216.349609375,
+      "counts": [
+        4,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17246.4765625,
+      "counts": [
+        4,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17276.595703125,
+      "counts": [
+        4,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17306.689453125,
+      "counts": [
+        4,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17336.8515625,
+      "counts": [
+        4,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17352.919921875,
+      "counts": [
+        4,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17354.9296875,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17375.015625,
+      "counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17377.033203125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17407.236328125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17437.38671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17467.5546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17497.685546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17527.8671875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17558.017578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17588.1875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17618.3515625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17648.4453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17678.595703125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17708.740234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17738.8828125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17769.02734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17799.1953125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17829.37890625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17859.50390625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17889.640625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17919.826171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17949.96875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 17980.142578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18010.298828125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18040.43359375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18070.623046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18100.8046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18130.955078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18161.142578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18191.328125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18221.51171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18251.69921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18281.865234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18312.0546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18342.232421875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18372.400390625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18402.576171875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18432.748046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18462.98046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18493.1328125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18523.302734375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18553.4609375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18583.630859375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18613.767578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18643.92578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18674.064453125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18704.240234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18734.373046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18764.5078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18794.66796875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18824.8125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18855,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18885.15234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18915.29296875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18945.423828125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 18975.5859375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19005.755859375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19035.94140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19066.130859375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19096.244140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19126.3984375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19156.572265625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19186.744140625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19216.890625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19247.087890625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19277.220703125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19307.40625,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19337.5234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19367.69921875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19397.892578125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19428.0234375,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19458.185546875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19488.330078125,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19518.498046875,
+      "counts": [
+        6,
+        6
+      ]
+    },
+    {
+      "world_seconds": 19530.306640625,
+      "counts": [
+        6,
+        6
+      ]
+    }
+  ],
+  "delivery_windows": [
+    {
+      "start": 0,
+      "end": 1800,
+      "deliveries": [
+        919.2447190284729,
+        910.5149450302124
+      ],
+      "deaths": 0,
+      "births": 6,
+      "min_alive": 6,
+      "end_alive": 12,
+      "batch_ms_median": 423.1876220703125
+    },
+    {
+      "start": 1800,
+      "end": 3600,
+      "deliveries": [
+        778.70441198349,
+        726.7439403533936
+      ],
+      "deaths": 2,
+      "births": 2,
+      "min_alive": 10,
+      "end_alive": 12,
+      "batch_ms_median": 424.21885681152344
+    },
+    {
+      "start": 3600,
+      "end": 5400,
+      "deliveries": [
+        731.1466288566589,
+        726.4995498657227
+      ],
+      "deaths": 1,
+      "births": 1,
+      "min_alive": 11,
+      "end_alive": 12,
+      "batch_ms_median": 424.1042175292969
+    },
+    {
+      "start": 5400,
+      "end": 7200,
+      "deliveries": [
+        723.0536918640137,
+        723.2390298843384
+      ],
+      "deaths": 0,
+      "births": 0,
+      "min_alive": 12,
+      "end_alive": 12,
+      "batch_ms_median": 423.2490997314453
+    },
+    {
+      "start": 7200,
+      "end": 9000,
+      "deliveries": [
+        696.3341279029846,
+        714.1268162727356
+      ],
+      "deaths": 0,
+      "births": 0,
+      "min_alive": 12,
+      "end_alive": 12,
+      "batch_ms_median": 422.3975830078125
+    },
+    {
+      "start": 9000,
+      "end": 10800,
+      "deliveries": [
+        738.6263093948364,
+        743.0146989822388
+      ],
+      "deaths": 0,
+      "births": 0,
+      "min_alive": 12,
+      "end_alive": 12,
+      "batch_ms_median": 422.9308776855469
+    },
+    {
+      "start": 10800,
+      "end": 12600,
+      "deliveries": [
+        762.6513228416443,
+        732.1181297302246
+      ],
+      "deaths": 1,
+      "births": 1,
+      "min_alive": 11,
+      "end_alive": 12,
+      "batch_ms_median": 423.33050537109375
+    },
+    {
+      "start": 12600,
+      "end": 14400,
+      "deliveries": [
+        714.678466796875,
+        693.259069442749
+      ],
+      "deaths": 0,
+      "births": 0,
+      "min_alive": 12,
+      "end_alive": 12,
+      "batch_ms_median": 422.33241271972656
+    },
+    {
+      "start": 14400,
+      "end": 16200,
+      "deliveries": [
+        759.0129675865173,
+        720.64177942276
+      ],
+      "deaths": 3,
+      "births": 3,
+      "min_alive": 10,
+      "end_alive": 12,
+      "batch_ms_median": 423.3762512207031
+    },
+    {
+      "start": 16200,
+      "end": 18000,
+      "deliveries": [
+        814.4193687438965,
+        745.1561822891235
+      ],
+      "deaths": 3,
+      "births": 3,
+      "min_alive": 10,
+      "end_alive": 12,
+      "batch_ms_median": 423.0425720214844
+    },
+    {
+      "start": 18000,
+      "end": 19530.306640625,
+      "deliveries": [
+        604.9698028564453,
+        608.5490455627441
+      ],
+      "deaths": 0,
+      "births": 0,
+      "min_alive": 12,
+      "end_alive": 12,
+      "batch_ms_median": 422.70660400390625
+    }
+  ]
+}
