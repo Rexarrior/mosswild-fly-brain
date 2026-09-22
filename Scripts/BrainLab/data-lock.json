@@ -1,0 +1,7 @@
+{
+  "revision": "a3db62f9436074e485c0278290c2164ed6150808",
+  "sha256": {
+    "2025_Completeness_783.csv": "52b0ac6094cd32c546f8d4c341e094376f48f4e791f8db9b166de5dff8199ea4",
+    "2025_Connectivity_783.parquet": "efeb23fb99098e9c390f6869969b2a121a2ee92c833cfc45ecb2c1d8e1af0347"
+  }
+}
