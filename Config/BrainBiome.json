@@ -1,0 +1,239 @@
+{
+  "schema": 1,
+  "predict_senses": true,
+  "half_width": 5500,
+  "half_height": 4800,
+  "homes": [
+    [
+      -2800,
+      -700
+    ],
+    [
+      2800,
+      700
+    ]
+  ],
+  "points": [
+    {
+      "name": "Cyan orchard",
+      "x": -3100,
+      "y": -1400,
+      "kind": 0,
+      "capacity": 130,
+      "regrowth": 0.35,
+      "phase": 0
+    },
+    {
+      "name": "Cyan bramble",
+      "x": -3200,
+      "y": 350,
+      "kind": 0,
+      "capacity": 130,
+      "regrowth": 0.35,
+      "phase": 1
+    },
+    {
+      "name": "Amber orchard",
+      "x": 3100,
+      "y": 1400,
+      "kind": 0,
+      "capacity": 130,
+      "regrowth": 0.35,
+      "phase": 0
+    },
+    {
+      "name": "Amber bramble",
+      "x": 3200,
+      "y": -350,
+      "kind": 0,
+      "capacity": 130,
+      "regrowth": 0.35,
+      "phase": 1
+    },
+    {
+      "name": "Moon orchid",
+      "x": -450,
+      "y": 1400,
+      "kind": 0,
+      "capacity": 280,
+      "regrowth": 3.2,
+      "phase": 0
+    },
+    {
+      "name": "Sun orchid",
+      "x": 450,
+      "y": -1400,
+      "kind": 0,
+      "capacity": 280,
+      "regrowth": 3.2,
+      "phase": 3.14
+    },
+    {
+      "name": "Fallen elder",
+      "x": -1700,
+      "y": 2300,
+      "kind": 0,
+      "capacity": 220,
+      "regrowth": 2.4,
+      "phase": 1.6
+    },
+    {
+      "name": "Amber mushrooms",
+      "x": 1700,
+      "y": -2300,
+      "kind": 0,
+      "capacity": 220,
+      "regrowth": 2.4,
+      "phase": 4.7
+    },
+    {
+      "name": "Ancient shrine",
+      "x": 0,
+      "y": 0,
+      "kind": 0,
+      "capacity": 340,
+      "regrowth": 3.0,
+      "phase": 2
+    },
+    {
+      "name": "West lotus",
+      "x": -4300,
+      "y": 2000,
+      "kind": 0,
+      "capacity": 230,
+      "regrowth": 2.4,
+      "phase": 3
+    },
+    {
+      "name": "East lotus",
+      "x": 4300,
+      "y": -2000,
+      "kind": 0,
+      "capacity": 230,
+      "regrowth": 2.4,
+      "phase": 0
+    },
+    {
+      "name": "Northern honey",
+      "x": 1000,
+      "y": 3200,
+      "kind": 0,
+      "capacity": 260,
+      "regrowth": 2.5,
+      "phase": 1
+    },
+    {
+      "name": "Southern honey",
+      "x": -1000,
+      "y": -3200,
+      "kind": 0,
+      "capacity": 260,
+      "regrowth": 2.5,
+      "phase": 4
+    },
+    {
+      "name": "Cyan spring",
+      "x": -2000,
+      "y": -200,
+      "kind": 1,
+      "capacity": 1000,
+      "regrowth": 100,
+      "phase": 0
+    },
+    {
+      "name": "Amber spring",
+      "x": 2000,
+      "y": 200,
+      "kind": 1,
+      "capacity": 1000,
+      "regrowth": 100,
+      "phase": 0
+    },
+    {
+      "name": "Mirror pool",
+      "x": 0,
+      "y": 2500,
+      "kind": 1,
+      "capacity": 1000,
+      "regrowth": 100,
+      "phase": 0
+    },
+    {
+      "name": "Reed pool",
+      "x": 0,
+      "y": -2500,
+      "kind": 1,
+      "capacity": 1000,
+      "regrowth": 100,
+      "phase": 0
+    }
+  ],
+  "obstacles": [
+    {
+      "x": -1250,
+      "y": 450,
+      "radius": 210
+    },
+    {
+      "x": 1250,
+      "y": -450,
+      "radius": 210
+    },
+    {
+      "x": -800,
+      "y": -1800,
+      "radius": 170
+    },
+    {
+      "x": 800,
+      "y": 1800,
+      "radius": 170
+    },
+    {
+      "x": -3800,
+      "y": -400,
+      "radius": 230
+    },
+    {
+      "x": 3800,
+      "y": 400,
+      "radius": 230
+    },
+    {
+      "x": -600,
+      "y": 3000,
+      "radius": 180
+    },
+    {
+      "x": 600,
+      "y": -3000,
+      "radius": 180
+    }
+  ],
+  "default_stage": 10,
+  "default_parameters": {
+    "sense_radius": 1500,
+    "separation": 1.8,
+    "alignment": 0.6,
+    "cohesion": 0.4,
+    "hunger": 90,
+    "thirst": 60,
+    "memory_seconds": 70,
+    "trail_lifetime": 100,
+    "brood_cost": 30,
+    "regrowth": 1,
+    "turn_gain": 0.75,
+    "motor_smoothing": 0.08,
+    "neural_ms": 20,
+    "colony_limit": 6
+  },
+  "neural_ms": 20,
+  "economy": {
+    "enabled": true,
+    "upkeep_per_adult": 0.045,
+    "reserve_per_adult": 20,
+    "reserve_base": 60,
+    "spoilage_rate": 0.0004,
+    "cargo_timeout": 35
+  }
+}
