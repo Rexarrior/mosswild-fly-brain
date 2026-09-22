@@ -1,0 +1,17 @@
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.idea/
+.vscode/
+*.xcworkspace/
+*.xcodeproj/
+.DS_Store
+__pycache__/
+*.pyc
+
+# Local credentials and developer environments
+.env
+.env.*
+!.env.example
+.venv/
