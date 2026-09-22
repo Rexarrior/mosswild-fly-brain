@@ -1,0 +1,34 @@
+{
+  "duration": 600,
+  "wall_seconds": 602.0132799169987,
+  "samples": 597,
+  "final": {
+    "elapsed": 599.4149780273438,
+    "alive": 2,
+    "eggs": 0,
+    "meals": 121,
+    "fights": 33,
+    "player_hits": 0,
+    "births": 11,
+    "deaths": 15,
+    "eggs_laid": 11,
+    "player_health": 100,
+    "batch_ms": 284.01080322265625,
+    "batches": 1161,
+    "ablation": false,
+    "status": "LIVE: SiliconFly + FlyBrainEngine / Metal",
+    "wall_seconds": 601.4236388749996
+  },
+  "siliconfly": {
+    "agent_samples": 642,
+    "fraction_zero_drive": 0.010903426791277258,
+    "mean_energy": 51.80048955085098,
+    "last_seen": 252.30458068847656
+  },
+  "flybrain": {
+    "agent_samples": 2712,
+    "fraction_zero_drive": 0.23561946902654868,
+    "mean_energy": 46.83685407864485,
+    "last_seen": 599.4149780273438
+  }
+}

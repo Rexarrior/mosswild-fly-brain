@@ -1,0 +1,700 @@
+{
+  "neural_ms": 20,
+  "body_step": 0.4,
+  "integration_substep": 0.05,
+  "scope": "Full native brains with isolated 2D body; no ecology, collisions or social signals.",
+  "results": [
+    {
+      "name": "siliconfly-form0-calibrated-tau0-gain1",
+      "backend": "siliconfly",
+      "form": 0,
+      "decoder": "calibrated",
+      "smoothing": 0,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 35.20000000000014,
+      "wall_seconds": 0.255253208000795,
+      "path_cm": 4653.537854289988,
+      "arrival_seconds": [
+        8.79999999999999,
+        19.600000000000144,
+        26.800000000000246,
+        35.20000000000014
+      ],
+      "final_position": [
+        -46.974327131494725,
+        101.62048366932774
+      ],
+      "final_distance": 111.95226710810634
+    },
+    {
+      "name": "siliconfly-form0-calibrated-tau0.35-gain1",
+      "backend": "siliconfly",
+      "form": 0,
+      "decoder": "calibrated",
+      "smoothing": 0.35,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 1,
+      "world_seconds": 119.99999999999532,
+      "wall_seconds": 0.4431937920016935,
+      "path_cm": 11203.413835427795,
+      "arrival_seconds": [
+        115.99999999999555
+      ],
+      "final_position": [
+        697.6306747589682,
+        72.80174939016945
+      ],
+      "final_distance": 734.3682825669298
+    },
+    {
+      "name": "siliconfly-form0-trained-tau0.35-gain1",
+      "backend": "siliconfly",
+      "form": 0,
+      "decoder": "trained",
+      "smoothing": 0.35,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 0,
+      "world_seconds": 119.99999999999532,
+      "wall_seconds": 0.4488985419993696,
+      "path_cm": 10747.444239360095,
+      "arrival_seconds": [],
+      "final_position": [
+        501.890877345087,
+        -83.25567022986985
+      ],
+      "final_distance": 309.51664839796064
+    },
+    {
+      "name": "siliconfly-form0-trained-tau0.08-gain1",
+      "backend": "siliconfly",
+      "form": 0,
+      "decoder": "trained",
+      "smoothing": 0.08,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 45.19999999999957,
+      "wall_seconds": 0.16861404099836363,
+      "path_cm": 5427.40515700246,
+      "arrival_seconds": [
+        9.600000000000001,
+        22.80000000000019,
+        33.60000000000023,
+        45.19999999999957
+      ],
+      "final_position": [
+        108.8945117674536,
+        56.83247916491331
+      ],
+      "final_distance": 122.83299793256857
+    },
+    {
+      "name": "siliconfly-form0-trained-tau0.08-gain0.75",
+      "backend": "siliconfly",
+      "form": 0,
+      "decoder": "trained",
+      "smoothing": 0.08,
+      "turn_gain": 0.75,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 41.599999999999774,
+      "wall_seconds": 0.1561293749982724,
+      "path_cm": 5098.550846955891,
+      "arrival_seconds": [
+        10.000000000000007,
+        24.000000000000206,
+        35.20000000000014,
+        41.599999999999774
+      ],
+      "final_position": [
+        -38.598827208169546,
+        144.40910435553377
+      ],
+      "final_distance": 149.47862349718628
+    },
+    {
+      "name": "siliconfly-form1-calibrated-tau0-gain1",
+      "backend": "siliconfly",
+      "form": 1,
+      "decoder": "calibrated",
+      "smoothing": 0,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 39.19999999999991,
+      "wall_seconds": 0.14567395799895166,
+      "path_cm": 5670.011612632941,
+      "arrival_seconds": [
+        9.600000000000001,
+        20.00000000000015,
+        31.20000000000031,
+        39.19999999999991
+      ],
+      "final_position": [
+        -143.01360023126915,
+        -12.503356144197987
+      ],
+      "final_distance": 143.55912985936465
+    },
+    {
+      "name": "siliconfly-form1-calibrated-tau0.35-gain1",
+      "backend": "siliconfly",
+      "form": 1,
+      "decoder": "calibrated",
+      "smoothing": 0.35,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 0,
+      "world_seconds": 119.99999999999532,
+      "wall_seconds": 0.4513390840002103,
+      "path_cm": 14205.90195718612,
+      "arrival_seconds": [],
+      "final_position": [
+        363.00454664028626,
+        -168.37490606170897
+      ],
+      "final_distance": 468.3109386383699
+    },
+    {
+      "name": "siliconfly-form1-trained-tau0.35-gain1",
+      "backend": "siliconfly",
+      "form": 1,
+      "decoder": "trained",
+      "smoothing": 0.35,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 0,
+      "world_seconds": 119.99999999999532,
+      "wall_seconds": 0.44110533300045063,
+      "path_cm": 13575.603248562715,
+      "arrival_seconds": [],
+      "final_position": [
+        428.8086871431312,
+        134.8913592029332
+      ],
+      "final_distance": 394.9413494786544
+    },
+    {
+      "name": "siliconfly-form1-trained-tau0.08-gain1",
+      "backend": "siliconfly",
+      "form": 1,
+      "decoder": "trained",
+      "smoothing": 0.08,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 43.99999999999964,
+      "wall_seconds": 0.16569649999655667,
+      "path_cm": 6459.459633387863,
+      "arrival_seconds": [
+        10.400000000000013,
+        19.600000000000144,
+        30.00000000000029,
+        43.99999999999964
+      ],
+      "final_position": [
+        147.18734051240628,
+        36.9615697640052
+      ],
+      "final_distance": 151.75727609091584
+    },
+    {
+      "name": "siliconfly-form1-trained-tau0.08-gain0.75",
+      "backend": "siliconfly",
+      "form": 1,
+      "decoder": "trained",
+      "smoothing": 0.08,
+      "turn_gain": 0.75,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 41.1999999999998,
+      "wall_seconds": 0.15808254099829355,
+      "path_cm": 5693.713332222537,
+      "arrival_seconds": [
+        10.800000000000018,
+        20.00000000000015,
+        30.400000000000297,
+        41.1999999999998
+      ],
+      "final_position": [
+        -66.2496390453804,
+        125.70179580035132
+      ],
+      "final_distance": 142.09136546981458
+    },
+    {
+      "name": "siliconfly-form2-calibrated-tau0-gain1",
+      "backend": "siliconfly",
+      "form": 2,
+      "decoder": "calibrated",
+      "smoothing": 0,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 43.19999999999968,
+      "wall_seconds": 0.15985033299875795,
+      "path_cm": 6861.510594752308,
+      "arrival_seconds": [
+        10.800000000000018,
+        21.600000000000172,
+        32.4000000000003,
+        43.19999999999968
+      ],
+      "final_position": [
+        76.56885838317322,
+        69.06539354154174
+      ],
+      "final_distance": 103.1155597334877
+    },
+    {
+      "name": "siliconfly-form2-calibrated-tau0.35-gain1",
+      "backend": "siliconfly",
+      "form": 2,
+      "decoder": "calibrated",
+      "smoothing": 0.35,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 0,
+      "world_seconds": 119.99999999999532,
+      "wall_seconds": 0.4422424999975192,
+      "path_cm": 17005.948184379176,
+      "arrival_seconds": [],
+      "final_position": [
+        481.0450718412061,
+        -202.37382252938147
+      ],
+      "final_distance": 377.73987113082853
+    },
+    {
+      "name": "siliconfly-form2-trained-tau0.35-gain1",
+      "backend": "siliconfly",
+      "form": 2,
+      "decoder": "trained",
+      "smoothing": 0.35,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 0,
+      "world_seconds": 119.99999999999532,
+      "wall_seconds": 0.44249116600258276,
+      "path_cm": 16559.44664261033,
+      "arrival_seconds": [],
+      "final_position": [
+        317.4534592215422,
+        111.28571538539761
+      ],
+      "final_distance": 495.2127567683365
+    },
+    {
+      "name": "siliconfly-form2-trained-tau0.08-gain1",
+      "backend": "siliconfly",
+      "form": 2,
+      "decoder": "trained",
+      "smoothing": 0.08,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 42.799999999999706,
+      "wall_seconds": 0.1630207909984165,
+      "path_cm": 7045.901984029857,
+      "arrival_seconds": [
+        10.000000000000007,
+        31.600000000000314,
+        38.399999999999956,
+        42.799999999999706
+      ],
+      "final_position": [
+        76.92527383901452,
+        25.1054037509644
+      ],
+      "final_distance": 80.91834805967254
+    },
+    {
+      "name": "siliconfly-form2-trained-tau0.08-gain0.75",
+      "backend": "siliconfly",
+      "form": 2,
+      "decoder": "trained",
+      "smoothing": 0.08,
+      "turn_gain": 0.75,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 30.400000000000297,
+      "wall_seconds": 0.11428108299878659,
+      "path_cm": 5656.178762290463,
+      "arrival_seconds": [
+        7.199999999999982,
+        10.800000000000018,
+        22.000000000000178,
+        30.400000000000297
+      ],
+      "final_position": [
+        -101.0238961352768,
+        94.54966024840796
+      ],
+      "final_distance": 138.36714148756766
+    },
+    {
+      "name": "flybrain-form0-calibrated-tau0-gain1",
+      "backend": "flybrain",
+      "form": 0,
+      "decoder": "calibrated",
+      "smoothing": 0,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 20.400000000000155,
+      "wall_seconds": 1.475708082998608,
+      "path_cm": 2843.7248459958837,
+      "arrival_seconds": [
+        5.1999999999999895,
+        10.000000000000007,
+        15.200000000000081,
+        20.400000000000155
+      ],
+      "final_position": [
+        9.588704811840481,
+        129.40871591775334
+      ],
+      "final_distance": 129.76347334843655
+    },
+    {
+      "name": "flybrain-form0-calibrated-tau0.35-gain1",
+      "backend": "flybrain",
+      "form": 0,
+      "decoder": "calibrated",
+      "smoothing": 0.35,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 24.000000000000206,
+      "wall_seconds": 1.349788499999704,
+      "path_cm": 3137.9975474141347,
+      "arrival_seconds": [
+        5.999999999999987,
+        11.200000000000024,
+        17.600000000000115,
+        24.000000000000206
+      ],
+      "final_position": [
+        -0.7227847170718236,
+        107.85543707323198
+      ],
+      "final_distance": 107.85785888847013
+    },
+    {
+      "name": "flybrain-form0-trained-tau0.35-gain1",
+      "backend": "flybrain",
+      "form": 0,
+      "decoder": "trained",
+      "smoothing": 0.35,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 24.40000000000021,
+      "wall_seconds": 1.9518960420027724,
+      "path_cm": 3093.9432817064676,
+      "arrival_seconds": [
+        5.999999999999987,
+        11.60000000000003,
+        18.00000000000012,
+        24.40000000000021
+      ],
+      "final_position": [
+        42.17077053096793,
+        96.76541184695662
+      ],
+      "final_distance": 105.55528796363869
+    },
+    {
+      "name": "flybrain-form0-trained-tau0.08-gain1",
+      "backend": "flybrain",
+      "form": 0,
+      "decoder": "trained",
+      "smoothing": 0.08,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 20.80000000000016,
+      "wall_seconds": 1.0913970000001427,
+      "path_cm": 2912.4450471828964,
+      "arrival_seconds": [
+        5.599999999999988,
+        10.800000000000018,
+        16.000000000000092,
+        20.80000000000016
+      ],
+      "final_position": [
+        -4.455961174007359,
+        151.21763828763665
+      ],
+      "final_distance": 151.28327640315956
+    },
+    {
+      "name": "flybrain-form0-trained-tau0.08-gain0.75",
+      "backend": "flybrain",
+      "form": 0,
+      "decoder": "trained",
+      "smoothing": 0.08,
+      "turn_gain": 0.75,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 22.000000000000178,
+      "wall_seconds": 1.2310121669979708,
+      "path_cm": 2993.673443282473,
+      "arrival_seconds": [
+        5.599999999999988,
+        11.200000000000024,
+        16.800000000000104,
+        22.000000000000178
+      ],
+      "final_position": [
+        -20.934331785880186,
+        127.64897539676056
+      ],
+      "final_distance": 129.3541926926379
+    },
+    {
+      "name": "flybrain-form1-calibrated-tau0-gain1",
+      "backend": "flybrain",
+      "form": 1,
+      "decoder": "calibrated",
+      "smoothing": 0,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 15.600000000000087,
+      "wall_seconds": 0.8542894579986751,
+      "path_cm": 2797.5359342915835,
+      "arrival_seconds": [
+        3.999999999999994,
+        7.599999999999981,
+        11.60000000000003,
+        15.600000000000087
+      ],
+      "final_position": [
+        17.858176727572065,
+        123.42165061377594
+      ],
+      "final_distance": 124.70692970425571
+    },
+    {
+      "name": "flybrain-form1-calibrated-tau0.35-gain1",
+      "backend": "flybrain",
+      "form": 1,
+      "decoder": "calibrated",
+      "smoothing": 0.35,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 18.400000000000126,
+      "wall_seconds": 0.9900537499997881,
+      "path_cm": 3307.2597108715463,
+      "arrival_seconds": [
+        5.1999999999999895,
+        10.000000000000007,
+        13.600000000000058,
+        18.400000000000126
+      ],
+      "final_position": [
+        76.52379159183702,
+        123.50605627822038
+      ],
+      "final_distance": 145.2915572804898
+    },
+    {
+      "name": "flybrain-form1-trained-tau0.35-gain1",
+      "backend": "flybrain",
+      "form": 1,
+      "decoder": "trained",
+      "smoothing": 0.35,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 18.400000000000126,
+      "wall_seconds": 1.0555019579987857,
+      "path_cm": 3103.7423483408606,
+      "arrival_seconds": [
+        4.799999999999991,
+        9.600000000000001,
+        14.000000000000064,
+        18.400000000000126
+      ],
+      "final_position": [
+        11.664678985105871,
+        134.37130108733095
+      ],
+      "final_distance": 134.8766521371572
+    },
+    {
+      "name": "flybrain-form1-trained-tau0.08-gain1",
+      "backend": "flybrain",
+      "form": 1,
+      "decoder": "trained",
+      "smoothing": 0.08,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 16.800000000000104,
+      "wall_seconds": 0.9095659999984491,
+      "path_cm": 2935.450144972412,
+      "arrival_seconds": [
+        4.399999999999992,
+        8.79999999999999,
+        12.800000000000047,
+        16.800000000000104
+      ],
+      "final_position": [
+        14.877321932613818,
+        149.25559817770832
+      ],
+      "final_distance": 149.99522757498707
+    },
+    {
+      "name": "flybrain-form1-trained-tau0.08-gain0.75",
+      "backend": "flybrain",
+      "form": 1,
+      "decoder": "trained",
+      "smoothing": 0.08,
+      "turn_gain": 0.75,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 16.400000000000098,
+      "wall_seconds": 0.8892364999992424,
+      "path_cm": 2863.9991207592952,
+      "arrival_seconds": [
+        4.399999999999992,
+        8.399999999999984,
+        12.400000000000041,
+        16.400000000000098
+      ],
+      "final_position": [
+        8.706366625217637,
+        148.54110835935614
+      ],
+      "final_distance": 148.7960405805164
+    },
+    {
+      "name": "flybrain-form2-calibrated-tau0-gain1",
+      "backend": "flybrain",
+      "form": 2,
+      "decoder": "calibrated",
+      "smoothing": 0,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 14.40000000000007,
+      "wall_seconds": 0.7012598339970282,
+      "path_cm": 3033.166324435324,
+      "arrival_seconds": [
+        3.599999999999995,
+        7.199999999999982,
+        10.800000000000018,
+        14.40000000000007
+      ],
+      "final_position": [
+        0.2868565896388894,
+        115.2417452396157
+      ],
+      "final_distance": 115.242102256838
+    },
+    {
+      "name": "flybrain-form2-calibrated-tau0.35-gain1",
+      "backend": "flybrain",
+      "form": 2,
+      "decoder": "calibrated",
+      "smoothing": 0.35,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 16.400000000000098,
+      "wall_seconds": 0.8956057089999376,
+      "path_cm": 3490.43329791718,
+      "arrival_seconds": [
+        4.399999999999992,
+        9.199999999999996,
+        12.800000000000047,
+        16.400000000000098
+      ],
+      "final_position": [
+        -30.403809920781157,
+        82.07084624913227
+      ],
+      "final_distance": 87.5215142793342
+    },
+    {
+      "name": "flybrain-form2-trained-tau0.35-gain1",
+      "backend": "flybrain",
+      "form": 2,
+      "decoder": "trained",
+      "smoothing": 0.35,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 16.800000000000104,
+      "wall_seconds": 0.9231391670000448,
+      "path_cm": 3346.380715412144,
+      "arrival_seconds": [
+        4.399999999999992,
+        8.399999999999984,
+        12.800000000000047,
+        16.800000000000104
+      ],
+      "final_position": [
+        -16.65196178454211,
+        80.22875423820872
+      ],
+      "final_distance": 81.9386406885588
+    },
+    {
+      "name": "flybrain-form2-trained-tau0.08-gain1",
+      "backend": "flybrain",
+      "form": 2,
+      "decoder": "trained",
+      "smoothing": 0.08,
+      "turn_gain": 1,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 15.200000000000081,
+      "wall_seconds": 0.8509420830014278,
+      "path_cm": 3097.983346515607,
+      "arrival_seconds": [
+        3.999999999999994,
+        7.99999999999998,
+        11.60000000000003,
+        15.200000000000081
+      ],
+      "final_position": [
+        -19.357025199036034,
+        121.63144643358773
+      ],
+      "final_distance": 123.16210125717585
+    },
+    {
+      "name": "flybrain-form2-trained-tau0.08-gain0.75",
+      "backend": "flybrain",
+      "form": 2,
+      "decoder": "trained",
+      "smoothing": 0.08,
+      "turn_gain": 0.75,
+      "seed": 1854,
+      "completed_waypoints": 4,
+      "world_seconds": 15.600000000000087,
+      "wall_seconds": 1.4206130000020494,
+      "path_cm": 3056.126549515102,
+      "arrival_seconds": [
+        3.999999999999994,
+        7.599999999999981,
+        11.60000000000003,
+        15.600000000000087
+      ],
+      "final_position": [
+        2.484261062846772,
+        75.30683471869797
+      ],
+      "final_distance": 75.34779962532198
+    }
+  ]
+}

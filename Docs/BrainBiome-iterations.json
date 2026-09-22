@@ -1,0 +1,2344 @@
+[
+  {
+    "stage": 1,
+    "name": "01-utility",
+    "hypothesis": "Larger biome; resource utility, committed goals and scouting.",
+    "config": {
+      "sense_radius": 1500,
+      "separation": 1.8,
+      "alignment": 0.45,
+      "cohesion": 0.28,
+      "hunger": 82,
+      "thirst": 60,
+      "memory_seconds": 70,
+      "trail_lifetime": 100,
+      "brood_cost": 30,
+      "regrowth": 1,
+      "turn_gain": 1,
+      "motor_smoothing": 0.35,
+      "stage": 1,
+      "seed": 1701,
+      "name": "01-utility",
+      "synchronous": true,
+      "swarm": true,
+      "step": 0.4,
+      "duration": 600,
+      "neural_ms": 40
+    },
+    "binary_sha256": "41982a207e29f8047744f9d91de77f226d91dfeed2cbb5c315cdb5125ba9ac57",
+    "metrics": {
+      "elapsed": 600.3269653320312,
+      "wall_seconds": 1752.1169854588807,
+      "stage": 1,
+      "seed": 1701,
+      "swarm": true,
+      "alive": 9,
+      "eggs": 0,
+      "births": 7,
+      "deaths": 4,
+      "starvation_deaths": 4,
+      "dehydration_deaths": 0,
+      "combat_deaths": 0,
+      "meals": 121,
+      "fights": 0,
+      "player_hits": 0,
+      "player_health": 100,
+      "food_delivered": 0,
+      "cyan_store": 60,
+      "amber_store": 60,
+      "goal_changes": 227,
+      "stuck_fraction": 0.23503772914409637,
+      "polarization": 0.45290061831474304,
+      "swarm_fraction": 0.09160517901182175,
+      "social_seconds": 922.7482299804688,
+      "coverage": 36,
+      "resource_visits": 8,
+      "batch_ms": 709.1800537109375,
+      "batches": 1501,
+      "status": "LIVE: SiliconFly + FlyBrainEngine / Metal",
+      "ablation": false,
+      "samples": 501,
+      "distance_cm": 272926.6301269531,
+      "final_backend_counts": {
+        "siliconfly": 6,
+        "flybrain": 3
+      },
+      "batch_median_ms": 1208.7272338867188,
+      "batch_p95_ms": 1601.3079833984375,
+      "both_colonies_persist": true,
+      "observed_swarm_fraction": 0.20562098494045813,
+      "observed_social_seconds": 303.5553757548332,
+      "late_swarm_fraction": 0.04481981981981981,
+      "late_social_seconds": 177.556640625,
+      "grouped_colony_seconds": 79.19389343261719,
+      "late_grouped_colony_seconds": 17.99560546875,
+      "late_excursion_eligible_colony_seconds": 3.59912109375,
+      "late_excursion_grouped_colony_seconds": 0.0,
+      "hydration_replenished": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "reserve_conservation_max_error": 0.0,
+      "low_energy_agent_seconds": {
+        "siliconfly": 26.3935546875,
+        "flybrain": 526.7230072021484
+      },
+      "low_hydration_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "total_observed_agent_seconds": 6196.122208952904,
+      "low_energy_fraction": 0.08926818149106856,
+      "score": 53.772
+    },
+    "adjustments": {},
+    "score_delta": null,
+    "note": "40ms initial implementation. Later candidates introduce 20ms windows; blocked time includes contacts. Swarm measured from actual displacements. Different map/physiology from the historical Insectarium baseline.",
+    "diagnostics": {
+      "opposing_colonies_nearby_seconds": 0.0,
+      "observed_goal_switches": {
+        "siliconfly": 132,
+        "flybrain": 72
+      },
+      "goal_samples": {
+        "siliconfly": {
+          "Nest": 2106,
+          "Forage": 816
+        },
+        "flybrain": {
+          "Nest": 981,
+          "Forage": 1266,
+          "Waking": 1
+        }
+      },
+      "longest_stall_seconds": 146.4012451171875,
+      "territory_changes": [],
+      "combat_examples": []
+    }
+  },
+  {
+    "stage": 2,
+    "name": "02-water",
+    "hypothesis": "Address measured blocking with neighbour separation; hydration priorities and 20ms neural windows.",
+    "config": {
+      "sense_radius": 1500,
+      "separation": 1.8,
+      "alignment": 0.45,
+      "cohesion": 0.28,
+      "hunger": 82,
+      "thirst": 60,
+      "memory_seconds": 70,
+      "trail_lifetime": 100,
+      "brood_cost": 30,
+      "regrowth": 1,
+      "turn_gain": 1,
+      "motor_smoothing": 0.35,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "stage": 2,
+      "seed": 1701,
+      "name": "02-water",
+      "synchronous": true,
+      "swarm": true,
+      "step": 0.4,
+      "duration": 600
+    },
+    "source_sha256": "801d8eee3133c68f72a301db3926e2f48418b4f47c041e162317afde2c8bbed9",
+    "metrics": {
+      "elapsed": 600.3269653320312,
+      "wall_seconds": 628.1136365830898,
+      "stage": 2,
+      "seed": 1701,
+      "swarm": true,
+      "alive": 11,
+      "eggs": 0,
+      "births": 6,
+      "deaths": 1,
+      "starvation_deaths": 1,
+      "dehydration_deaths": 0,
+      "combat_deaths": 0,
+      "meals": 183,
+      "fights": 0,
+      "player_hits": 0,
+      "player_health": 100,
+      "food_delivered": 0,
+      "cyan_store": 60,
+      "amber_store": 60,
+      "goal_changes": 347,
+      "stuck_fraction": 0.005857136566191912,
+      "polarization": 0.44959402084350586,
+      "swarm_fraction": 0.11595234274864197,
+      "social_seconds": 816.6241455078125,
+      "coverage": 52,
+      "resource_visits": 9,
+      "batch_ms": 265.0805358886719,
+      "batches": 1501,
+      "status": "LIVE: SiliconFly + FlyBrainEngine / Metal",
+      "ablation": false,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "resources": [
+        {
+          "index": 0,
+          "amount": 46.539100646972656,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 1,
+          "amount": 60.40715026855469,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 2,
+          "amount": 13.137228012084961,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 3,
+          "amount": 37.84198760986328,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 4,
+          "amount": 280,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 5,
+          "amount": 280,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 6,
+          "amount": 220,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 7,
+          "amount": 220,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 8,
+          "amount": 329.4993896484375,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 9,
+          "amount": 230,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 10,
+          "amount": 230,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 11,
+          "amount": 260,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 12,
+          "amount": 260,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 13,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 14,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 15,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 16,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        }
+      ],
+      "samples": 501,
+      "distance_cm": 609518.517578125,
+      "final_backend_counts": {
+        "siliconfly": 6,
+        "flybrain": 5
+      },
+      "batch_median_ms": 255.33045959472656,
+      "batch_p95_ms": 324.88739013671875,
+      "both_colonies_persist": true,
+      "observed_swarm_fraction": 0.11035970937301545,
+      "observed_social_seconds": 827.9197105765343,
+      "late_swarm_fraction": 0.12229883984719589,
+      "late_social_seconds": 347.9150695800781,
+      "grouped_colony_seconds": 188.37347388267517,
+      "late_grouped_colony_seconds": 101.97509765625,
+      "late_excursion_eligible_colony_seconds": 61.18505859375,
+      "late_excursion_grouped_colony_seconds": 25.19384765625,
+      "hydration_replenished": {
+        "siliconfly": 402.1588134765625,
+        "flybrain": 306.61015701293945
+      },
+      "reserve_conservation_max_error": 0.0,
+      "low_energy_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 157.16165161132812
+      },
+      "low_hydration_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "total_observed_agent_seconds": 6657.915624022484,
+      "low_energy_fraction": 0.023605233302187216,
+      "score": 72.013
+    },
+    "adjustments": {},
+    "score_delta": 18.241000000000007,
+    "note": "Measured feature addition; ecological constraints differ by stage. Score is diagnostic, not a controlled causal estimate for every added need. Observed swarm uses actual displacements, at least three moving neighbours within 850cm and alignment >0.65.",
+    "binary_sha256": "2c740a9face731b91357bfe6a655c4a4659c391f237a01b423db20a2f3d8b7d9",
+    "diagnostics": {
+      "opposing_colonies_nearby_seconds": 87.5797119140625,
+      "observed_goal_switches": {
+        "siliconfly": 200,
+        "flybrain": 134
+      },
+      "goal_samples": {
+        "siliconfly": {
+          "Nest": 1486,
+          "Forage": 1028,
+          "Waking": 2,
+          "Drink": 130
+        },
+        "flybrain": {
+          "Nest": 1699,
+          "Forage": 575,
+          "Drink": 635
+        }
+      },
+      "longest_stall_seconds": 1.2000732421875,
+      "territory_changes": [],
+      "combat_examples": []
+    }
+  },
+  {
+    "stage": 3,
+    "name": "03-economy",
+    "hypothesis": "Fix critical hunger at water and neural feeding activation; carry food to nests and pay for brood.",
+    "config": {
+      "sense_radius": 1500,
+      "separation": 1.8,
+      "alignment": 0.45,
+      "cohesion": 0.28,
+      "hunger": 82,
+      "thirst": 60,
+      "memory_seconds": 70,
+      "trail_lifetime": 100,
+      "brood_cost": 30,
+      "regrowth": 1,
+      "turn_gain": 1,
+      "motor_smoothing": 0.35,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "stage": 3,
+      "seed": 1701,
+      "name": "03-economy",
+      "synchronous": true,
+      "swarm": true,
+      "step": 0.4,
+      "duration": 600
+    },
+    "metrics": {
+      "elapsed": 600.3269653320312,
+      "wall_seconds": 658.5618543326855,
+      "stage": 3,
+      "seed": 1701,
+      "swarm": true,
+      "alive": 12,
+      "eggs": 0,
+      "births": 7,
+      "deaths": 1,
+      "starvation_deaths": 1,
+      "dehydration_deaths": 0,
+      "combat_deaths": 0,
+      "meals": 157,
+      "fights": 0,
+      "player_hits": 0,
+      "player_health": 100,
+      "food_delivered": 663.1438598632812,
+      "cyan_store": 282.99273681640625,
+      "amber_store": 290.15106201171875,
+      "goal_changes": 371,
+      "stuck_fraction": 0.033895574510097504,
+      "polarization": 0.47072988748550415,
+      "swarm_fraction": 0.14467795193195343,
+      "social_seconds": 869.8111572265625,
+      "coverage": 67,
+      "resource_visits": 13,
+      "batch_ms": 340.94287109375,
+      "batches": 1501,
+      "status": "LIVE: SiliconFly + FlyBrainEngine / Metal",
+      "ablation": false,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "resources": [
+        {
+          "index": 0,
+          "amount": 10.297445297241211,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 1,
+          "amount": 22.658111572265625,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 2,
+          "amount": 18.917428970336914,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 3,
+          "amount": 28.857385635375977,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 4,
+          "amount": 280,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 5,
+          "amount": 280,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 6,
+          "amount": 220,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 7,
+          "amount": 220,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 8,
+          "amount": 205.44728088378906,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 9,
+          "amount": 230,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 10,
+          "amount": 230,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 11,
+          "amount": 260,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 12,
+          "amount": 260,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 13,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 14,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 15,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 16,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        }
+      ],
+      "samples": 501,
+      "distance_cm": 597991.373046875,
+      "final_backend_counts": {
+        "siliconfly": 6,
+        "flybrain": 6
+      },
+      "batch_median_ms": 291.0274353027344,
+      "batch_p95_ms": 329.081298828125,
+      "both_colonies_persist": true,
+      "observed_swarm_fraction": 0.14749280970747233,
+      "observed_social_seconds": 891.4773032069206,
+      "late_swarm_fraction": 0.1205569471539954,
+      "late_social_seconds": 488.28082275390625,
+      "grouped_colony_seconds": 235.17191857099533,
+      "late_grouped_colony_seconds": 118.77102661132812,
+      "late_excursion_eligible_colony_seconds": 75.58154296875,
+      "late_excursion_grouped_colony_seconds": 23.994140625,
+      "hydration_replenished": {
+        "siliconfly": 404.20808029174805,
+        "flybrain": 401.6727066040039
+      },
+      "reserve_conservation_max_error": 7.62939453125e-05,
+      "low_energy_agent_seconds": {
+        "siliconfly": 79.204833984375,
+        "flybrain": 0.0
+      },
+      "low_hydration_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "total_observed_agent_seconds": 6841.555100798607,
+      "low_energy_fraction": 0.011577022009971023,
+      "score": 78.788
+    },
+    "adjustments": {},
+    "source_sha256": "ec0dcfadae934273b1d201a6767463fb94cbce4e55ab050beba454971654b4f7",
+    "binary_sha256": "17fd7a6380b2d2ffe9f4f3d8fe89cd445c7a1c5383c757aa7fc4456039281129",
+    "score_delta": 6.7749999999999915,
+    "note": "Full 600s run after correcting critical hunger and feeding activation. A prior 156s diagnostic start was aborted and is excluded.",
+    "diagnostics": {
+      "opposing_colonies_nearby_seconds": 67.18359375,
+      "observed_goal_switches": {
+        "siliconfly": 188,
+        "flybrain": 165
+      },
+      "goal_samples": {
+        "siliconfly": {
+          "Forage": 1181,
+          "Carry home": 155,
+          "Waking": 1,
+          "Nest": 1347,
+          "Drink": 105
+        },
+        "flybrain": {
+          "Forage": 647,
+          "Carry home": 117,
+          "Nest": 2077,
+          "Drink": 78
+        }
+      },
+      "longest_stall_seconds": 171.61046600341797,
+      "territory_changes": [],
+      "combat_examples": []
+    }
+  },
+  {
+    "stage": 4,
+    "name": "04-memory",
+    "hypothesis": "Fix measured rock contact and premature meal abandonment; bounded resource memory and seasonal flowering.",
+    "config": {
+      "sense_radius": 1500,
+      "separation": 1.8,
+      "alignment": 0.45,
+      "cohesion": 0.28,
+      "hunger": 82,
+      "thirst": 60,
+      "memory_seconds": 70,
+      "trail_lifetime": 100,
+      "brood_cost": 30,
+      "regrowth": 1,
+      "turn_gain": 1,
+      "motor_smoothing": 0.35,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "stage": 4,
+      "seed": 1701,
+      "name": "04-memory",
+      "synchronous": true,
+      "swarm": true,
+      "step": 0.4,
+      "duration": 600
+    },
+    "source_sha256": "d111974ab0edaf3532eecee010c4322d6f28b5307d2901d3dcee4bb9961d4039",
+    "binary_sha256": "6767cc507ad9832662a91c94c52a63edfa29b38d094d3eb82bd4916ca1a352f5",
+    "metrics": {
+      "elapsed": 600.3269653320312,
+      "wall_seconds": 686.251597955823,
+      "stage": 4,
+      "seed": 1701,
+      "swarm": true,
+      "alive": 12,
+      "eggs": 0,
+      "births": 6,
+      "deaths": 0,
+      "starvation_deaths": 0,
+      "dehydration_deaths": 0,
+      "combat_deaths": 0,
+      "meals": 116,
+      "fights": 0,
+      "player_hits": 0,
+      "player_health": 100,
+      "food_delivered": 544.5518798828125,
+      "cyan_store": 231.88552856445312,
+      "amber_store": 252.6663055419922,
+      "goal_changes": 391,
+      "stuck_fraction": 0.0038189708720892668,
+      "polarization": 0.47692471742630005,
+      "swarm_fraction": 0.18478970229625702,
+      "social_seconds": 810.925537109375,
+      "coverage": 73,
+      "resource_visits": 12,
+      "batch_ms": 311.9364318847656,
+      "batches": 1501,
+      "status": "LIVE: SiliconFly + FlyBrainEngine / Metal",
+      "ablation": false,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "resources": [
+        {
+          "index": 0,
+          "amount": 1.1639920473098755,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 1,
+          "amount": 1.5431063175201416,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 2,
+          "amount": 6.911808967590332,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 3,
+          "amount": 21.84327507019043,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 4,
+          "amount": 280,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 5,
+          "amount": 280,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 6,
+          "amount": 220,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 7,
+          "amount": 220,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 8,
+          "amount": 340,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 9,
+          "amount": 230,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 10,
+          "amount": 199.84400939941406,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 11,
+          "amount": 244.46530151367188,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 12,
+          "amount": 260,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 13,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 14,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 15,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 16,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        }
+      ],
+      "samples": 501,
+      "distance_cm": 621527.89453125,
+      "final_backend_counts": {
+        "siliconfly": 6,
+        "flybrain": 6
+      },
+      "batch_median_ms": 315.7429656982422,
+      "batch_p95_ms": 329.5160827636719,
+      "both_colonies_persist": true,
+      "observed_swarm_fraction": 0.1943963190403784,
+      "observed_social_seconds": 823.1050497889519,
+      "late_swarm_fraction": 0.1250788676905069,
+      "late_social_seconds": 380.3071594238281,
+      "grouped_colony_seconds": 247.17947453260422,
+      "late_grouped_colony_seconds": 82.77981567382812,
+      "late_excursion_eligible_colony_seconds": 17.99560546875,
+      "late_excursion_grouped_colony_seconds": 0.0,
+      "hydration_replenished": {
+        "siliconfly": 483.09007263183594,
+        "flybrain": 442.4795341491699
+      },
+      "reserve_conservation_max_error": 4.57763671875e-05,
+      "low_energy_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "low_hydration_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "total_observed_agent_seconds": 6986.725144743919,
+      "low_energy_fraction": 0.0,
+      "score": 79.581
+    },
+    "adjustments": {},
+    "score_delta": 0.7930000000000064,
+    "note": "Measured feature addition; ecological constraints differ by stage. Score is diagnostic, not a controlled causal estimate for every added need. Observed swarm uses actual displacements, at least three moving neighbours within 850cm and alignment >0.65.",
+    "diagnostics": {
+      "opposing_colonies_nearby_seconds": 22.79671859741211,
+      "observed_goal_switches": {
+        "siliconfly": 173,
+        "flybrain": 184
+      },
+      "goal_samples": {
+        "siliconfly": {
+          "Forage": 652,
+          "Carry home": 152,
+          "Scout": 182,
+          "Waking": 1,
+          "Nest": 1802,
+          "Drink": 121
+        },
+        "flybrain": {
+          "Forage": 464,
+          "Carry home": 104,
+          "Scout": 219,
+          "Nest": 2047,
+          "Drink": 77,
+          "Defend": 8
+        }
+      },
+      "longest_stall_seconds": 1.2000732421875,
+      "territory_changes": [],
+      "combat_examples": []
+    }
+  },
+  {
+    "stage": 5,
+    "name": "05-recruitment",
+    "hypothesis": "Share discoveries, deposit and follow fading recruitment trails.",
+    "config": {
+      "sense_radius": 1500,
+      "separation": 1.8,
+      "alignment": 0.45,
+      "cohesion": 0.28,
+      "hunger": 82,
+      "thirst": 60,
+      "memory_seconds": 70,
+      "trail_lifetime": 100,
+      "brood_cost": 30,
+      "regrowth": 1,
+      "turn_gain": 1,
+      "motor_smoothing": 0.35,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "stage": 5,
+      "seed": 1701,
+      "name": "05-recruitment",
+      "synchronous": true,
+      "swarm": true,
+      "step": 0.4,
+      "duration": 600
+    },
+    "source_sha256": "d111974ab0edaf3532eecee010c4322d6f28b5307d2901d3dcee4bb9961d4039",
+    "binary_sha256": "6767cc507ad9832662a91c94c52a63edfa29b38d094d3eb82bd4916ca1a352f5",
+    "metrics": {
+      "elapsed": 600.3269653320312,
+      "wall_seconds": 670.1855079568923,
+      "stage": 5,
+      "seed": 1701,
+      "swarm": true,
+      "alive": 12,
+      "eggs": 0,
+      "births": 6,
+      "deaths": 0,
+      "starvation_deaths": 0,
+      "dehydration_deaths": 0,
+      "combat_deaths": 0,
+      "meals": 124,
+      "fights": 0,
+      "player_hits": 0,
+      "player_health": 100,
+      "food_delivered": 507.22705078125,
+      "cyan_store": 262.9884948730469,
+      "amber_store": 184.23855590820312,
+      "goal_changes": 419,
+      "stuck_fraction": 0.0023524193093180656,
+      "polarization": 0.5922238826751709,
+      "swarm_fraction": 0.3850599527359009,
+      "social_seconds": 907.4519653320312,
+      "coverage": 86,
+      "resource_visits": 13,
+      "batch_ms": 335.0105895996094,
+      "batches": 1501,
+      "status": "LIVE: SiliconFly + FlyBrainEngine / Metal",
+      "ablation": false,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "resources": [
+        {
+          "index": 0,
+          "amount": 7.926806926727295,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 1,
+          "amount": 1.4037362337112427,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 2,
+          "amount": 3.4412057399749756,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 3,
+          "amount": 6.147725582122803,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 4,
+          "amount": 280,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 5,
+          "amount": 243.9597930908203,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 6,
+          "amount": 220,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 7,
+          "amount": 220,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 8,
+          "amount": 340,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 9,
+          "amount": 230,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 10,
+          "amount": 230,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 11,
+          "amount": 204.22486877441406,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 12,
+          "amount": 96.94294738769531,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 13,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 14,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 15,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 16,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        }
+      ],
+      "samples": 501,
+      "distance_cm": 685940.26171875,
+      "final_backend_counts": {
+        "siliconfly": 6,
+        "flybrain": 6
+      },
+      "batch_median_ms": 313.4112854003906,
+      "batch_p95_ms": 327.8838806152344,
+      "both_colonies_persist": true,
+      "observed_swarm_fraction": 0.3922862475415869,
+      "observed_social_seconds": 925.1117560267448,
+      "late_swarm_fraction": 0.21999996446822434,
+      "late_social_seconds": 377.90777587890625,
+      "grouped_colony_seconds": 506.37828129529953,
+      "late_grouped_colony_seconds": 131.9677734375,
+      "late_excursion_eligible_colony_seconds": 26.3935546875,
+      "late_excursion_grouped_colony_seconds": 19.1953125,
+      "hydration_replenished": {
+        "siliconfly": 483.3201675415039,
+        "flybrain": 401.1978874206543
+      },
+      "reserve_conservation_max_error": 1.52587890625e-05,
+      "low_energy_agent_seconds": {
+        "siliconfly": 108.00658416748047,
+        "flybrain": 10.800651550292969
+      },
+      "low_hydration_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "total_observed_agent_seconds": 6981.925217986107,
+      "low_energy_fraction": 0.017016400492476578,
+      "score": 82.987
+    },
+    "adjustments": {},
+    "score_delta": 3.4059999999999917,
+    "note": "Measured feature addition; ecological constraints differ by stage. Score is diagnostic, not a controlled causal estimate for every added need. Observed swarm uses actual displacements, at least three moving neighbours within 850cm and alignment >0.65.",
+    "diagnostics": {
+      "opposing_colonies_nearby_seconds": 0.0,
+      "observed_goal_switches": {
+        "siliconfly": 214,
+        "flybrain": 163
+      },
+      "goal_samples": {
+        "siliconfly": {
+          "Forage": 1315,
+          "Carry home": 160,
+          "Waking": 1,
+          "Scout": 90,
+          "Drink": 128,
+          "Nest": 1222
+        },
+        "flybrain": {
+          "Forage": 906,
+          "Carry home": 61,
+          "Waking": 2,
+          "Scout": 76,
+          "Nest": 1791,
+          "Drink": 73
+        }
+      },
+      "longest_stall_seconds": 1.2000732421875,
+      "territory_changes": [],
+      "combat_examples": []
+    }
+  },
+  {
+    "stage": 6,
+    "name": "06-separation",
+    "hypothesis": "Resource reservations and obstacle/stuck recovery after local spacing.",
+    "config": {
+      "sense_radius": 1500,
+      "separation": 1.8,
+      "alignment": 0.45,
+      "cohesion": 0.28,
+      "hunger": 82,
+      "thirst": 60,
+      "memory_seconds": 70,
+      "trail_lifetime": 100,
+      "brood_cost": 30,
+      "regrowth": 1,
+      "turn_gain": 1,
+      "motor_smoothing": 0.35,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "stage": 6,
+      "seed": 1701,
+      "name": "06-separation",
+      "synchronous": true,
+      "swarm": true,
+      "step": 0.4,
+      "duration": 600
+    },
+    "source_sha256": "d111974ab0edaf3532eecee010c4322d6f28b5307d2901d3dcee4bb9961d4039",
+    "binary_sha256": "6767cc507ad9832662a91c94c52a63edfa29b38d094d3eb82bd4916ca1a352f5",
+    "metrics": {
+      "elapsed": 600.3269653320312,
+      "wall_seconds": 597.6589829586446,
+      "stage": 6,
+      "seed": 1701,
+      "swarm": true,
+      "alive": 12,
+      "eggs": 0,
+      "births": 6,
+      "deaths": 0,
+      "starvation_deaths": 0,
+      "dehydration_deaths": 0,
+      "combat_deaths": 0,
+      "meals": 128,
+      "fights": 4,
+      "player_hits": 0,
+      "player_health": 100,
+      "food_delivered": 515.599853515625,
+      "cyan_store": 261.59991455078125,
+      "amber_store": 193.9999237060547,
+      "goal_changes": 385,
+      "stuck_fraction": 0.00293448637239635,
+      "polarization": 0.49430492520332336,
+      "swarm_fraction": 0.21629762649536133,
+      "social_seconds": 965.7877197265625,
+      "coverage": 79,
+      "resource_visits": 12,
+      "batch_ms": 324.9669189453125,
+      "batches": 1501,
+      "status": "LIVE: SiliconFly + FlyBrainEngine / Metal",
+      "ablation": false,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "resources": [
+        {
+          "index": 0,
+          "amount": 5.791162014007568,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 1,
+          "amount": 12.923259735107422,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 2,
+          "amount": 7.0267767906188965,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 3,
+          "amount": 0.7086426019668579,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 4,
+          "amount": 239.88214111328125,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 5,
+          "amount": 247.11839294433594,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 6,
+          "amount": 220,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 7,
+          "amount": 205.3299560546875,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 8,
+          "amount": 254.52223205566406,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 9,
+          "amount": 230,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 10,
+          "amount": 230,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 11,
+          "amount": 260,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 12,
+          "amount": 260,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 13,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 14,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 15,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 16,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        }
+      ],
+      "samples": 501,
+      "distance_cm": 708952.9375,
+      "final_backend_counts": {
+        "siliconfly": 6,
+        "flybrain": 6
+      },
+      "batch_median_ms": 265.51869201660156,
+      "batch_p95_ms": 318.5357971191406,
+      "both_colonies_persist": true,
+      "observed_swarm_fraction": 0.23083725317245835,
+      "observed_social_seconds": 985.1015824079514,
+      "late_swarm_fraction": 0.08086955329205033,
+      "late_social_seconds": 413.89898681640625,
+      "grouped_colony_seconds": 346.79253017902374,
+      "late_grouped_colony_seconds": 68.38330078125,
+      "late_excursion_eligible_colony_seconds": 20.39501953125,
+      "late_excursion_grouped_colony_seconds": 0.0,
+      "hydration_replenished": {
+        "siliconfly": 485.7116928100586,
+        "flybrain": 470.59582901000977
+      },
+      "reserve_conservation_max_error": 1.52587890625e-05,
+      "low_energy_agent_seconds": {
+        "siliconfly": 42.00255584716797,
+        "flybrain": 0.0
+      },
+      "low_hydration_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "total_observed_agent_seconds": 6993.925034880638,
+      "low_energy_fraction": 0.006005577074059217,
+      "score": 79.865
+    },
+    "adjustments": {},
+    "score_delta": -3.122,
+    "note": "Measured feature addition; ecological constraints differ by stage. Score is diagnostic, not a controlled causal estimate for every added need. Observed swarm uses actual displacements, at least three moving neighbours within 850cm and alignment >0.65.",
+    "diagnostics": {
+      "opposing_colonies_nearby_seconds": 16.7991943359375,
+      "observed_goal_switches": {
+        "siliconfly": 183,
+        "flybrain": 146
+      },
+      "goal_samples": {
+        "siliconfly": {
+          "Forage": 1248,
+          "Carry home": 157,
+          "Scout": 91,
+          "Drink": 134,
+          "Nest": 1291
+        },
+        "flybrain": {
+          "Forage": 856,
+          "Carry home": 75,
+          "Nest": 1843,
+          "Scout": 33,
+          "Drink": 99,
+          "Defend": 8
+        }
+      },
+      "longest_stall_seconds": 1.2000732421875,
+      "territory_changes": [],
+      "combat_examples": [
+        {
+          "time": 242.81021118164062,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 1,
+              "backend": "siliconfly",
+              "health_before": 60,
+              "health_after": 52,
+              "x": 1739.4454539280753,
+              "y": 240.433269605393
+            }
+          ]
+        },
+        {
+          "time": 245.21035766601562,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 1,
+              "backend": "siliconfly",
+              "health_before": 52,
+              "health_after": 44,
+              "x": 1499.2163722711553,
+              "y": 207.56149088288188
+            }
+          ]
+        },
+        {
+          "time": 246.41043090820312,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 1,
+              "backend": "siliconfly",
+              "health_before": 44,
+              "health_after": 36,
+              "x": 1377.9620794458058,
+              "y": 128.52650170484583
+            }
+          ]
+        },
+        {
+          "time": 248.81057739257812,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 1,
+              "backend": "siliconfly",
+              "health_before": 36,
+              "health_after": 28,
+              "x": 1091.6291299646691,
+              "y": 119.35869576889603
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stage": 7,
+    "name": "07-flocking",
+    "hypothesis": "Local cohort recruitment, alignment and cohesion before neural encoding.",
+    "config": {
+      "sense_radius": 1500,
+      "separation": 1.8,
+      "alignment": 0.45,
+      "cohesion": 0.28,
+      "hunger": 82,
+      "thirst": 60,
+      "memory_seconds": 70,
+      "trail_lifetime": 100,
+      "brood_cost": 30,
+      "regrowth": 1,
+      "turn_gain": 1,
+      "motor_smoothing": 0.35,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "stage": 7,
+      "seed": 1701,
+      "name": "07-flocking",
+      "synchronous": true,
+      "swarm": true,
+      "step": 0.4,
+      "duration": 600
+    },
+    "source_sha256": "d111974ab0edaf3532eecee010c4322d6f28b5307d2901d3dcee4bb9961d4039",
+    "binary_sha256": "6767cc507ad9832662a91c94c52a63edfa29b38d094d3eb82bd4916ca1a352f5",
+    "metrics": {
+      "elapsed": 600.3269653320312,
+      "wall_seconds": 703.3455600850284,
+      "stage": 7,
+      "seed": 1701,
+      "swarm": true,
+      "alive": 12,
+      "eggs": 0,
+      "births": 6,
+      "deaths": 0,
+      "starvation_deaths": 0,
+      "dehydration_deaths": 0,
+      "combat_deaths": 0,
+      "meals": 112,
+      "fights": 0,
+      "player_hits": 0,
+      "player_health": 100,
+      "food_delivered": 494.7979431152344,
+      "cyan_store": 237.59800720214844,
+      "amber_store": 197.19993591308594,
+      "goal_changes": 328,
+      "stuck_fraction": 0.006493647117167711,
+      "polarization": 0.5922994613647461,
+      "swarm_fraction": 0.29930031299591064,
+      "social_seconds": 960.1890869140625,
+      "coverage": 79,
+      "resource_visits": 13,
+      "batch_ms": 318.1889953613281,
+      "batches": 1501,
+      "status": "LIVE: SiliconFly + FlyBrainEngine / Metal",
+      "ablation": false,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "resources": [
+        {
+          "index": 0,
+          "amount": 6.386287689208984,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 1,
+          "amount": 4.200311660766602,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 2,
+          "amount": 6.52680778503418,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 3,
+          "amount": 11.324019432067871,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 4,
+          "amount": 277.07086181640625,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 5,
+          "amount": 131.95887756347656,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 6,
+          "amount": 220,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 7,
+          "amount": 220,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 8,
+          "amount": 340,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 9,
+          "amount": 230,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 10,
+          "amount": 230,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 11,
+          "amount": 260,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 12,
+          "amount": 228.9005126953125,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 13,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 14,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 15,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 16,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        }
+      ],
+      "samples": 501,
+      "distance_cm": 661133.94921875,
+      "final_backend_counts": {
+        "siliconfly": 6,
+        "flybrain": 6
+      },
+      "batch_median_ms": 314.9944610595703,
+      "batch_p95_ms": 327.5442810058594,
+      "both_colonies_persist": true,
+      "observed_swarm_fraction": 0.29953993764176723,
+      "observed_social_seconds": 986.3012986779213,
+      "late_swarm_fraction": 0.1278425561166231,
+      "late_social_seconds": 411.4995422363281,
+      "grouped_colony_seconds": 455.981920003891,
+      "late_grouped_colony_seconds": 115.171875,
+      "late_excursion_eligible_colony_seconds": 37.19091796875,
+      "late_excursion_grouped_colony_seconds": 19.1953125,
+      "hydration_replenished": {
+        "siliconfly": 486.7436218261719,
+        "flybrain": 369.66221618652344
+      },
+      "reserve_conservation_max_error": 1.52587890625e-05,
+      "low_energy_agent_seconds": {
+        "siliconfly": 33.60205078125,
+        "flybrain": 93.605712890625
+      },
+      "low_hydration_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "total_observed_agent_seconds": 6953.125657439232,
+      "low_energy_fraction": 0.018295047427450688,
+      "score": 81.348
+    },
+    "adjustments": {},
+    "score_delta": 1.483000000000004,
+    "note": "Measured feature addition; ecological constraints differ by stage. Score is diagnostic, not a controlled causal estimate for every added need. Observed swarm uses actual displacements, at least three moving neighbours within 850cm and alignment >0.65.",
+    "diagnostics": {
+      "opposing_colonies_nearby_seconds": 7.1982421875,
+      "observed_goal_switches": {
+        "siliconfly": 159,
+        "flybrain": 149
+      },
+      "goal_samples": {
+        "siliconfly": {
+          "Forage": 1327,
+          "Carry home": 161,
+          "Scout": 70,
+          "Drink": 141,
+          "Nest": 1210
+        },
+        "flybrain": {
+          "Forage": 1046,
+          "Carry home": 87,
+          "Nest": 1656,
+          "Scout": 47,
+          "Drink": 56
+        }
+      },
+      "longest_stall_seconds": 3.59912109375,
+      "territory_changes": [],
+      "combat_examples": []
+    }
+  },
+  {
+    "stage": 8,
+    "name": "08-risk",
+    "hypothesis": "Fix partial-load detours and poor-patch recruitment; patrol acquired territory and avoid outnumbered fights.",
+    "config": {
+      "sense_radius": 1500,
+      "separation": 1.8,
+      "alignment": 0.45,
+      "cohesion": 0.28,
+      "hunger": 82,
+      "thirst": 60,
+      "memory_seconds": 70,
+      "trail_lifetime": 100,
+      "brood_cost": 30,
+      "regrowth": 1,
+      "turn_gain": 1,
+      "motor_smoothing": 0.35,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "stage": 8,
+      "seed": 1701,
+      "name": "08-risk",
+      "synchronous": true,
+      "swarm": true,
+      "step": 0.4,
+      "duration": 600
+    },
+    "source_sha256": "000a03cbadb4724d226d7c4865c683073c9a5359cbdff311cd5c65b4f8999508",
+    "binary_sha256": "6dacc449a59729206aec393ce81d1cbb292f676d19720338571622deaf565a49",
+    "metrics": {
+      "elapsed": 600.3269653320312,
+      "wall_seconds": 714.4409282915294,
+      "stage": 8,
+      "seed": 1701,
+      "swarm": true,
+      "alive": 12,
+      "eggs": 0,
+      "births": 6,
+      "deaths": 0,
+      "starvation_deaths": 0,
+      "dehydration_deaths": 0,
+      "combat_deaths": 0,
+      "meals": 86,
+      "fights": 7,
+      "player_hits": 0,
+      "player_health": 100,
+      "food_delivered": 581.1337280273438,
+      "cyan_store": 250.3338165283203,
+      "amber_store": 270.79986572265625,
+      "goal_changes": 319,
+      "stuck_fraction": 0.00559723237529397,
+      "polarization": 0.46480613946914673,
+      "swarm_fraction": 0.16006362438201904,
+      "social_seconds": 925.9474487304688,
+      "coverage": 64,
+      "resource_visits": 11,
+      "batch_ms": 319.2742614746094,
+      "batches": 1501,
+      "status": "LIVE: SiliconFly + FlyBrainEngine / Metal",
+      "ablation": false,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "resources": [
+        {
+          "index": 0,
+          "amount": 27.99064826965332,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 1,
+          "amount": 32.588623046875,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 2,
+          "amount": 20.57400131225586,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 3,
+          "amount": 24.258249282836914,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 4,
+          "amount": 280,
+          "owner": 0,
+          "claim": 13.820541381835938
+        },
+        {
+          "index": 5,
+          "amount": 272.6212158203125,
+          "owner": 1,
+          "claim": 18.413358688354492
+        },
+        {
+          "index": 6,
+          "amount": 208.9044952392578,
+          "owner": 0,
+          "claim": 18.173261642456055
+        },
+        {
+          "index": 7,
+          "amount": 220,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 8,
+          "amount": 317.69097900390625,
+          "owner": 1,
+          "claim": 2.938459873199463
+        },
+        {
+          "index": 9,
+          "amount": 230,
+          "owner": 0,
+          "claim": 0.4286991357803345
+        },
+        {
+          "index": 10,
+          "amount": 230,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 11,
+          "amount": 260,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 12,
+          "amount": 260,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 13,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 14,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 15,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 16,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        }
+      ],
+      "samples": 501,
+      "distance_cm": 667757.83203125,
+      "final_backend_counts": {
+        "siliconfly": 6,
+        "flybrain": 6
+      },
+      "batch_median_ms": 318.7138977050781,
+      "batch_p95_ms": 330.13153076171875,
+      "both_colonies_persist": true,
+      "observed_swarm_fraction": 0.16811391603446274,
+      "observed_social_seconds": 952.6820741295815,
+      "late_swarm_fraction": 0.1669958889195535,
+      "late_social_seconds": 485.88140869140625,
+      "grouped_colony_seconds": 281.9621903896332,
+      "late_grouped_colony_seconds": 142.76516723632812,
+      "late_excursion_eligible_colony_seconds": 61.18505859375,
+      "late_excursion_grouped_colony_seconds": 13.19677734375,
+      "hydration_replenished": {
+        "siliconfly": 489.6756057739258,
+        "flybrain": 396.1328544616699
+      },
+      "reserve_conservation_max_error": 6.103515625e-05,
+      "low_energy_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "low_hydration_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "total_observed_agent_seconds": 6967.525437712669,
+      "low_energy_fraction": 0.0,
+      "score": 78.783
+    },
+    "adjustments": {},
+    "score_delta": -2.5649999999999977,
+    "note": "Measured feature addition; ecological constraints differ by stage. Score is diagnostic, not a controlled causal estimate for every added need. Observed swarm uses actual displacements, at least three moving neighbours within 850cm and alignment >0.65.",
+    "diagnostics": {
+      "opposing_colonies_nearby_seconds": 52.787109375,
+      "observed_goal_switches": {
+        "siliconfly": 146,
+        "flybrain": 159
+      },
+      "goal_samples": {
+        "siliconfly": {
+          "Forage": 876,
+          "Carry home": 231,
+          "Scout": 53,
+          "Waking": 1,
+          "Nest": 1383,
+          "Patrol": 234,
+          "Drink": 124,
+          "Defend": 11
+        },
+        "flybrain": {
+          "Forage": 529,
+          "Carry home": 129,
+          "Nest": 1736,
+          "Scout": 10,
+          "Patrol": 332,
+          "Drink": 60,
+          "Defend": 102,
+          "Recover": 2
+        }
+      },
+      "longest_stall_seconds": 1.2000732421875,
+      "territory_changes": [],
+      "combat_examples": [
+        {
+          "time": 281.2048645019531,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 2,
+              "backend": "siliconfly",
+              "health_before": 60,
+              "health_after": 52,
+              "x": -90.12962026581086,
+              "y": 189.46925652979445
+            }
+          ]
+        },
+        {
+          "time": 282.4045715332031,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 2,
+              "backend": "siliconfly",
+              "health_before": 52,
+              "health_after": 44.19999694824219,
+              "x": 42.333472758699905,
+              "y": 142.14749679808244
+            }
+          ]
+        },
+        {
+          "time": 336.3913879394531,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 4,
+              "backend": "flybrain",
+              "health_before": 60,
+              "health_after": 52,
+              "x": -14.738286760187957,
+              "y": -151.1288287100156
+            }
+          ]
+        },
+        {
+          "time": 348.3884582519531,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 8,
+              "backend": "siliconfly",
+              "health_before": 58.299842834472656,
+              "health_after": 50.299842834472656,
+              "x": -244.0192145036247,
+              "y": -382.0478301440563
+            }
+          ]
+        },
+        {
+          "time": 350.7878723144531,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 8,
+              "backend": "siliconfly",
+              "health_before": 50.299842834472656,
+              "health_after": 42.299842834472656,
+              "x": -487.05397990234087,
+              "y": -489.88462277968534
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stage": 9,
+    "name": "09-readout",
+    "hypothesis": "Held-out validated ridge readout plus temporal motor smoothing.",
+    "config": {
+      "sense_radius": 1500,
+      "separation": 1.8,
+      "alignment": 0.45,
+      "cohesion": 0.28,
+      "hunger": 82,
+      "thirst": 60,
+      "memory_seconds": 70,
+      "trail_lifetime": 100,
+      "brood_cost": 30,
+      "regrowth": 1,
+      "turn_gain": 1,
+      "motor_smoothing": 0.35,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "stage": 9,
+      "seed": 1701,
+      "name": "09-readout",
+      "synchronous": true,
+      "swarm": true,
+      "step": 0.4,
+      "duration": 600
+    },
+    "source_sha256": "000a03cbadb4724d226d7c4865c683073c9a5359cbdff311cd5c65b4f8999508",
+    "binary_sha256": "6dacc449a59729206aec393ce81d1cbb292f676d19720338571622deaf565a49",
+    "metrics": {
+      "elapsed": 600.3269653320312,
+      "wall_seconds": 673.3576968349516,
+      "stage": 9,
+      "seed": 1701,
+      "swarm": true,
+      "alive": 8,
+      "eggs": 0,
+      "births": 5,
+      "deaths": 3,
+      "starvation_deaths": 3,
+      "dehydration_deaths": 0,
+      "combat_deaths": 0,
+      "meals": 45,
+      "fights": 0,
+      "player_hits": 0,
+      "player_health": 100,
+      "food_delivered": 382.2452087402344,
+      "cyan_store": 96.11373138427734,
+      "amber_store": 256.1314697265625,
+      "goal_changes": 164,
+      "stuck_fraction": 0.009190653450787067,
+      "polarization": 0.4549563527107239,
+      "swarm_fraction": 0.08325857669115067,
+      "social_seconds": 912.2507934570312,
+      "coverage": 66,
+      "resource_visits": 10,
+      "batch_ms": 323.4862365722656,
+      "batches": 1501,
+      "status": "LIVE: SiliconFly + FlyBrainEngine / Metal",
+      "ablation": false,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "resources": [
+        {
+          "index": 0,
+          "amount": 69.7936782836914,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 1,
+          "amount": 96.71556091308594,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 2,
+          "amount": 33.551116943359375,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 3,
+          "amount": 49.275917053222656,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 4,
+          "amount": 249.070556640625,
+          "owner": 1,
+          "claim": 11.228216171264648
+        },
+        {
+          "index": 5,
+          "amount": 280,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 6,
+          "amount": 220,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 7,
+          "amount": 220,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 8,
+          "amount": 340,
+          "owner": 1,
+          "claim": 17.709074020385742
+        },
+        {
+          "index": 9,
+          "amount": 230,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 10,
+          "amount": 230,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 11,
+          "amount": 260,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 12,
+          "amount": 260,
+          "owner": 0,
+          "claim": 6.173095703125
+        },
+        {
+          "index": 13,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 14,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 15,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 16,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        }
+      ],
+      "samples": 501,
+      "distance_cm": 465530.58203125,
+      "final_backend_counts": {
+        "siliconfly": 2,
+        "flybrain": 6
+      },
+      "batch_median_ms": 311.5577697753906,
+      "batch_p95_ms": 326.5434265136719,
+      "both_colonies_persist": true,
+      "observed_swarm_fraction": 0.0890752351883658,
+      "observed_social_seconds": 923.8962615132332,
+      "late_swarm_fraction": 0.03124392382477714,
+      "late_social_seconds": 411.4995422363281,
+      "grouped_colony_seconds": 148.79292500019073,
+      "late_grouped_colony_seconds": 27.59326171875,
+      "late_excursion_eligible_colony_seconds": 80.38037109375,
+      "late_excursion_grouped_colony_seconds": 7.1982421875,
+      "hydration_replenished": {
+        "siliconfly": 41.11815643310547,
+        "flybrain": 411.2991828918457
+      },
+      "reserve_conservation_max_error": 4.1961669921875e-05,
+      "low_energy_agent_seconds": {
+        "siliconfly": 466.7377014160156,
+        "flybrain": 0.0
+      },
+      "low_hydration_agent_seconds": {
+        "siliconfly": 125.96926879882812,
+        "flybrain": 0.0
+      },
+      "total_observed_agent_seconds": 5579.353833556175,
+      "low_energy_fraction": 0.08365443657810205,
+      "score": 68.133
+    },
+    "adjustments": {},
+    "score_delta": -10.650000000000006,
+    "note": "Measured feature addition; ecological constraints differ by stage. Score is diagnostic, not a controlled causal estimate for every added need. Observed swarm uses actual displacements, at least three moving neighbours within 850cm and alignment >0.65.",
+    "diagnostics": {
+      "opposing_colonies_nearby_seconds": 0.0,
+      "observed_goal_switches": {
+        "siliconfly": 23,
+        "flybrain": 128
+      },
+      "goal_samples": {
+        "siliconfly": {
+          "Forage": 1052,
+          "Carry home": 283,
+          "Scout": 13,
+          "Drink": 428
+        },
+        "flybrain": {
+          "Forage": 659,
+          "Carry home": 130,
+          "Scout": 21,
+          "Waking": 1,
+          "Nest": 1602,
+          "Patrol": 390,
+          "Drink": 77
+        }
+      },
+      "longest_stall_seconds": 8.4005126953125,
+      "territory_changes": [],
+      "combat_examples": []
+    }
+  },
+  {
+    "stage": 10,
+    "name": "10-joint",
+    "hypothesis": "Tune remaining bottlenecks from the preceding measured cycles.",
+    "config": {
+      "sense_radius": 1500,
+      "separation": 1.8,
+      "alignment": 0.6,
+      "cohesion": 0.4,
+      "hunger": 90,
+      "thirst": 60,
+      "memory_seconds": 70,
+      "trail_lifetime": 100,
+      "brood_cost": 30,
+      "regrowth": 1,
+      "turn_gain": 0.75,
+      "motor_smoothing": 0.08,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "stage": 10,
+      "seed": 1701,
+      "name": "10-joint",
+      "synchronous": true,
+      "swarm": true,
+      "step": 0.4,
+      "duration": 600
+    },
+    "source_sha256": "000a03cbadb4724d226d7c4865c683073c9a5359cbdff311cd5c65b4f8999508",
+    "binary_sha256": "6dacc449a59729206aec393ce81d1cbb292f676d19720338571622deaf565a49",
+    "metrics": {
+      "elapsed": 600.3269653320312,
+      "wall_seconds": 686.3503638729453,
+      "stage": 10,
+      "seed": 1701,
+      "swarm": true,
+      "alive": 12,
+      "eggs": 0,
+      "births": 6,
+      "deaths": 0,
+      "starvation_deaths": 0,
+      "dehydration_deaths": 0,
+      "combat_deaths": 0,
+      "meals": 91,
+      "fights": 0,
+      "player_hits": 0,
+      "player_health": 100,
+      "food_delivered": 480.83197021484375,
+      "cyan_store": 198.35133361816406,
+      "amber_store": 222.48062133789062,
+      "goal_changes": 300,
+      "stuck_fraction": 0.013895119540393353,
+      "polarization": 0.5009868741035461,
+      "swarm_fraction": 0.1639426350593567,
+      "social_seconds": 984.8330688476562,
+      "coverage": 73,
+      "resource_visits": 13,
+      "batch_ms": 317.47015380859375,
+      "batches": 1501,
+      "status": "LIVE: SiliconFly + FlyBrainEngine / Metal",
+      "ablation": false,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "resources": [
+        {
+          "index": 0,
+          "amount": 22.444881439208984,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 1,
+          "amount": 31.50349998474121,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 2,
+          "amount": 29.75891876220703,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 3,
+          "amount": 35.831085205078125,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 4,
+          "amount": 212.8807373046875,
+          "owner": 0,
+          "claim": 18.813520431518555
+        },
+        {
+          "index": 5,
+          "amount": 280,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 6,
+          "amount": 169.77574157714844,
+          "owner": 0,
+          "claim": 14.207891464233398
+        },
+        {
+          "index": 7,
+          "amount": 220,
+          "owner": 1,
+          "claim": 2.3971781730651855
+        },
+        {
+          "index": 8,
+          "amount": 296.94232177734375,
+          "owner": 1,
+          "claim": 19.373746871948242
+        },
+        {
+          "index": 9,
+          "amount": 230,
+          "owner": 0,
+          "claim": 2.3651766777038574
+        },
+        {
+          "index": 10,
+          "amount": 230,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 11,
+          "amount": 260,
+          "owner": 0,
+          "claim": 1.0399197340011597
+        },
+        {
+          "index": 12,
+          "amount": 260,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 13,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 14,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 15,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 16,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        }
+      ],
+      "samples": 501,
+      "distance_cm": 640291.875,
+      "final_backend_counts": {
+        "siliconfly": 6,
+        "flybrain": 6
+      },
+      "batch_median_ms": 313.92730712890625,
+      "batch_p95_ms": 326.9009704589844,
+      "both_colonies_persist": true,
+      "observed_swarm_fraction": 0.16194968222392184,
+      "observed_social_seconds": 1023.4822861552238,
+      "late_swarm_fraction": 0.0681704217190806,
+      "late_social_seconds": 478.6831359863281,
+      "grouped_colony_seconds": 279.58257281780243,
+      "late_grouped_colony_seconds": 74.3818359375,
+      "late_excursion_eligible_colony_seconds": 89.97805786132812,
+      "late_excursion_grouped_colony_seconds": 8.39794921875,
+      "hydration_replenished": {
+        "siliconfly": 498.43488693237305,
+        "flybrain": 361.22526931762695
+      },
+      "reserve_conservation_max_error": 3.0517578125e-05,
+      "low_energy_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "low_hydration_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "total_observed_agent_seconds": 6944.724690794945,
+      "low_energy_fraction": 0.0,
+      "score": 78.757
+    },
+    "adjustments": {
+      "hunger": 90,
+      "alignment": 0.6,
+      "cohesion": 0.4,
+      "motor_smoothing": 0.08,
+      "turn_gain": 0.75
+    },
+    "score_delta": 10.62400000000001,
+    "note": "Measured feature addition; ecological constraints differ by stage. Score is diagnostic, not a controlled causal estimate for every added need. Observed swarm uses actual displacements, at least three moving neighbours within 850cm and alignment >0.65.",
+    "diagnostics": {
+      "opposing_colonies_nearby_seconds": 13.2008056640625,
+      "observed_goal_switches": {
+        "siliconfly": 144,
+        "flybrain": 144
+      },
+      "goal_samples": {
+        "siliconfly": {
+          "Forage": 1049,
+          "Carry home": 214,
+          "Scout": 47,
+          "Waking": 1,
+          "Patrol": 321,
+          "Nest": 1098,
+          "Recover": 2,
+          "Drink": 183
+        },
+        "flybrain": {
+          "Forage": 644,
+          "Carry home": 125,
+          "Scout": 15,
+          "Waking": 3,
+          "Patrol": 410,
+          "Nest": 1593,
+          "Defend": 26,
+          "Drink": 63
+        }
+      },
+      "longest_stall_seconds": 2.3994140625,
+      "territory_changes": [
+        {
+          "time": 227.20925903320312,
+          "resource": 8,
+          "previous_owner": 0,
+          "new_owner": 1
+        }
+      ],
+      "combat_examples": []
+    }
+  }
+]

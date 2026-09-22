@@ -1,0 +1,994 @@
+{
+  "date": "2026-09-19",
+  "hardware": {
+    "chip": "Apple M2 Pro",
+    "cpu_cores": 12,
+    "gpu_cores": 19,
+    "unified_memory_gb": 32,
+    "macos": "26.5",
+    "xcode": "26.6",
+    "unreal": "5.8.2"
+  },
+  "provenance": {
+    "repositories": {
+      "siliconfly": [
+        "dawsonamf/siliconfly",
+        "8839d84cd24888a4251a2e227792b6f26fbee776"
+      ],
+      "flyBrain": [
+        "mehrantsi/flyBrain",
+        "cdd3a127766ec184e19c4988fe12b6fd2cbc64fd"
+      ]
+    },
+    "downloads": {
+      "2025_Completeness_783.csv": {
+        "url": "https://raw.githubusercontent.com/eonsystemspbc/fly-brain/a3db62f9436074e485c0278290c2164ed6150808/data/2025_Completeness_783.csv",
+        "sha256": "52b0ac6094cd32c546f8d4c341e094376f48f4e791f8db9b166de5dff8199ea4"
+      },
+      "2025_Connectivity_783.parquet": {
+        "url": "https://raw.githubusercontent.com/eonsystemspbc/fly-brain/a3db62f9436074e485c0278290c2164ed6150808/data/2025_Connectivity_783.parquet",
+        "sha256": "efeb23fb99098e9c390f6869969b2a121a2ee92c833cfc45ecb2c1d8e1af0347"
+      }
+    }
+  },
+  "calibration": {
+    "siliconfly": {
+      "turn_center": 9.408659256125475,
+      "turn_scale": 351.7401707762232,
+      "drive_floor": 2.0951610716680684,
+      "drive_scale": 202.04323309337101
+    },
+    "flybrain": {
+      "turn_center": 9.333333333333343,
+      "turn_scale": 266.33333333333337,
+      "drive_floor": 2.0,
+      "drive_scale": 162.33333333333334
+    }
+  },
+  "neural_probe": {
+    "siliconfly": {
+      "rest": {
+        "mean": {
+          "left": 55.887665303548175,
+          "right": 56.77392298380534,
+          "forward": 19.39146525065104,
+          "escape": 0,
+          "wall_ms": 6.3582833333333335
+        },
+        "trials": [
+          {
+            "left": 59.56008377075195,
+            "right": 65.08384628295899,
+            "forward": 24.40771064758301,
+            "escape": 0,
+            "wall_ms": 6.4655416
+          },
+          {
+            "left": 50.43004531860352,
+            "right": 53.789981079101565,
+            "forward": 15.59117431640625,
+            "escape": 0,
+            "wall_ms": 6.35745
+          },
+          {
+            "left": 57.67286682128906,
+            "right": 51.447941589355466,
+            "forward": 18.175510787963866,
+            "escape": 0,
+            "wall_ms": 6.2518584
+          }
+        ]
+      },
+      "walk": {
+        "mean": {
+          "left": 45.15313606262207,
+          "right": 35.256452814737955,
+          "forward": 204.13839416503907,
+          "escape": 0,
+          "wall_ms": 6.573969466666666
+        },
+        "trials": [
+          {
+            "left": 42.00057792663574,
+            "right": 34.44082374572754,
+            "forward": 202.0153564453125,
+            "escape": 0,
+            "wall_ms": 6.5167584
+          },
+          {
+            "left": 45.216302490234376,
+            "right": 31.38710708618164,
+            "forward": 200.0252197265625,
+            "escape": 0,
+            "wall_ms": 6.6328334
+          },
+          {
+            "left": 48.24252777099609,
+            "right": 39.941427612304686,
+            "forward": 210.37460632324218,
+            "escape": 0,
+            "wall_ms": 6.5723166
+          }
+        ]
+      },
+      "left": {
+        "mean": {
+          "left": 363.55503743489584,
+          "right": 2.4062074025472007,
+          "forward": 216.3514628092448,
+          "escape": 0,
+          "wall_ms": 6.2842334
+        },
+        "trials": [
+          {
+            "left": 360.8671875,
+            "right": 3.597734522819519,
+            "forward": 222.91303405761718,
+            "escape": 0,
+            "wall_ms": 6.165525
+          },
+          {
+            "left": 373.593115234375,
+            "right": 0,
+            "forward": 218.6177520751953,
+            "escape": 0,
+            "wall_ms": 6.459975
+          },
+          {
+            "left": 356.2048095703125,
+            "right": 3.6208876848220823,
+            "forward": 207.5236022949219,
+            "escape": 0,
+            "wall_ms": 6.2272001999999995
+          }
+        ]
+      },
+      "right": {
+        "mean": {
+          "left": 1.5157866569856802,
+          "right": 343.84729817708336,
+          "forward": 208.04315694173178,
+          "escape": 0,
+          "wall_ms": 6.476524933333334
+        },
+        "trials": [
+          {
+            "left": 3.2019815921783445,
+            "right": 346.579736328125,
+            "forward": 211.0900146484375,
+            "escape": 0,
+            "wall_ms": 6.3390166
+          },
+          {
+            "left": 0.8195023536682129,
+            "right": 345.5044921875,
+            "forward": 203.92606201171876,
+            "escape": 0,
+            "wall_ms": 6.5501830000000005
+          },
+          {
+            "left": 0.5258760251104831,
+            "right": 339.457666015625,
+            "forward": 209.11339416503907,
+            "escape": 0,
+            "wall_ms": 6.5403752
+          }
+        ]
+      },
+      "loom": {
+        "mean": {
+          "left": 17.98903999328613,
+          "right": 31.673375447591145,
+          "forward": 4.077193331718445,
+          "escape": 1,
+          "wall_ms": 6.917
+        },
+        "trials": [
+          {
+            "left": 16.057891273498534,
+            "right": 35.201028442382814,
+            "forward": 3.2329599857330322,
+            "escape": 1,
+            "wall_ms": 6.8722416
+          },
+          {
+            "left": 21.9818603515625,
+            "right": 33.97974052429199,
+            "forward": 4.430969715118408,
+            "escape": 1,
+            "wall_ms": 6.9560834
+          },
+          {
+            "left": 15.927368354797363,
+            "right": 25.839357376098633,
+            "forward": 4.567650294303894,
+            "escape": 1,
+            "wall_ms": 6.922675
+          }
+        ]
+      },
+      "ablated_left": {
+        "mean": {
+          "left": 0,
+          "right": 0,
+          "forward": 0.09516107166806857,
+          "escape": 0,
+          "wall_ms": 3.361824933333333
+        },
+        "trials": [
+          {
+            "left": 0,
+            "right": 0,
+            "forward": 0.2854832150042057,
+            "escape": 0,
+            "wall_ms": 3.2636166
+          },
+          {
+            "left": 0,
+            "right": 0,
+            "forward": 0,
+            "escape": 0,
+            "wall_ms": 3.4027998
+          },
+          {
+            "left": 0,
+            "right": 0,
+            "forward": 0,
+            "escape": 0,
+            "wall_ms": 3.4190584
+          }
+        ]
+      },
+      "ablated_right": {
+        "mean": {
+          "left": 0,
+          "right": 0,
+          "forward": 0.09516107166806857,
+          "escape": 0,
+          "wall_ms": 3.3749778
+        },
+        "trials": [
+          {
+            "left": 0,
+            "right": 0,
+            "forward": 0.2854832150042057,
+            "escape": 0,
+            "wall_ms": 3.274967
+          },
+          {
+            "left": 0,
+            "right": 0,
+            "forward": 0,
+            "escape": 0,
+            "wall_ms": 3.4282166
+          },
+          {
+            "left": 0,
+            "right": 0,
+            "forward": 0,
+            "escape": 0,
+            "wall_ms": 3.4217498
+          }
+        ]
+      },
+      "ablated_walk": {
+        "mean": {
+          "left": 0,
+          "right": 0,
+          "forward": 0.09516107166806857,
+          "escape": 0,
+          "wall_ms": 3.364491533333333
+        },
+        "trials": [
+          {
+            "left": 0,
+            "right": 0,
+            "forward": 0.2854832150042057,
+            "escape": 0,
+            "wall_ms": 3.2595166
+          },
+          {
+            "left": 0,
+            "right": 0,
+            "forward": 0,
+            "escape": 0,
+            "wall_ms": 3.4160914
+          },
+          {
+            "left": 0,
+            "right": 0,
+            "forward": 0,
+            "escape": 0,
+            "wall_ms": 3.4178666
+          }
+        ]
+      },
+      "checks": {
+        "direction_separation_hz": 703.4803415524464,
+        "synaptic_walk_gain_hz": 204.04323309337101,
+        "loom_escape": 1
+      }
+    },
+    "flybrain": {
+      "rest": {
+        "mean": {
+          "left": 0.0,
+          "right": 0.0,
+          "forward": 0.0,
+          "escape": 0.0,
+          "wall_ms": 22.9567222
+        },
+        "trials": [
+          {
+            "left": 0.0,
+            "right": 0.0,
+            "forward": 0.0,
+            "escape": 0.0,
+            "wall_ms": 24.36315
+          },
+          {
+            "left": 0.0,
+            "right": 0.0,
+            "forward": 0.0,
+            "escape": 0.0,
+            "wall_ms": 22.1329498
+          },
+          {
+            "left": 0.0,
+            "right": 0.0,
+            "forward": 0.0,
+            "escape": 0.0,
+            "wall_ms": 22.3740668
+          }
+        ]
+      },
+      "walk": {
+        "mean": {
+          "left": 30.333333333333332,
+          "right": 12.333333333333334,
+          "forward": 164.33333333333334,
+          "escape": 0.7333333333333334,
+          "wall_ms": 156.32156646666667
+        },
+        "trials": [
+          {
+            "left": 28.0,
+            "right": 17.0,
+            "forward": 171.0,
+            "escape": 1.0,
+            "wall_ms": 108.2785582
+          },
+          {
+            "left": 32.0,
+            "right": 18.0,
+            "forward": 175.0,
+            "escape": 1.0,
+            "wall_ms": 119.6415748
+          },
+          {
+            "left": 31.0,
+            "right": 2.0,
+            "forward": 147.0,
+            "escape": 0.2,
+            "wall_ms": 241.0445664
+          }
+        ]
+      },
+      "left": {
+        "mean": {
+          "left": 275.6666666666667,
+          "right": 0.0,
+          "forward": 170.0,
+          "escape": 0.8,
+          "wall_ms": 141.72524693333332
+        },
+        "trials": [
+          {
+            "left": 281.0,
+            "right": 0.0,
+            "forward": 173.0,
+            "escape": 1.0,
+            "wall_ms": 112.194108
+          },
+          {
+            "left": 277.0,
+            "right": 0.0,
+            "forward": 178.0,
+            "escape": 1.0,
+            "wall_ms": 114.7449748
+          },
+          {
+            "left": 269.0,
+            "right": 0.0,
+            "forward": 159.0,
+            "escape": 0.4,
+            "wall_ms": 198.236658
+          }
+        ]
+      },
+      "right": {
+        "mean": {
+          "left": 0.3333333333333333,
+          "right": 257.3333333333333,
+          "forward": 160.66666666666666,
+          "escape": 0.5333333333333333,
+          "wall_ms": 189.53956393333334
+        },
+        "trials": [
+          {
+            "left": 0.0,
+            "right": 254.0,
+            "forward": 151.0,
+            "escape": 0.2,
+            "wall_ms": 225.1081168
+          },
+          {
+            "left": 0.0,
+            "right": 254.0,
+            "forward": 167.0,
+            "escape": 0.6,
+            "wall_ms": 183.0752418
+          },
+          {
+            "left": 1.0,
+            "right": 264.0,
+            "forward": 164.0,
+            "escape": 0.8,
+            "wall_ms": 160.4353332
+          }
+        ]
+      },
+      "loom": {
+        "mean": {
+          "left": 0.0,
+          "right": 0.0,
+          "forward": 0.0,
+          "escape": 1.0,
+          "wall_ms": 135.1154388
+        },
+        "trials": [
+          {
+            "left": 0.0,
+            "right": 0.0,
+            "forward": 0.0,
+            "escape": 1.0,
+            "wall_ms": 134.7442668
+          },
+          {
+            "left": 0.0,
+            "right": 0.0,
+            "forward": 0.0,
+            "escape": 1.0,
+            "wall_ms": 135.3340748
+          },
+          {
+            "left": 0.0,
+            "right": 0.0,
+            "forward": 0.0,
+            "escape": 1.0,
+            "wall_ms": 135.2679748
+          }
+        ]
+      },
+      "ablated_left": {
+        "mean": {
+          "left": 0.0,
+          "right": 0.0,
+          "forward": 0.0,
+          "escape": 0.0,
+          "wall_ms": 22.944391666666665
+        },
+        "trials": [
+          {
+            "left": 0.0,
+            "right": 0.0,
+            "forward": 0.0,
+            "escape": 0.0,
+            "wall_ms": 23.0559002
+          },
+          {
+            "left": 0.0,
+            "right": 0.0,
+            "forward": 0.0,
+            "escape": 0.0,
+            "wall_ms": 22.8257916
+          },
+          {
+            "left": 0.0,
+            "right": 0.0,
+            "forward": 0.0,
+            "escape": 0.0,
+            "wall_ms": 22.9514832
+          }
+        ]
+      },
+      "ablated_right": {
+        "mean": {
+          "left": 0.0,
+          "right": 0.0,
+          "forward": 0.0,
+          "escape": 0.0,
+          "wall_ms": 22.6237362
+        },
+        "trials": [
+          {
+            "left": 0.0,
+            "right": 0.0,
+            "forward": 0.0,
+            "escape": 0.0,
+            "wall_ms": 22.9494002
+          },
+          {
+            "left": 0.0,
+            "right": 0.0,
+            "forward": 0.0,
+            "escape": 0.0,
+            "wall_ms": 22.0066584
+          },
+          {
+            "left": 0.0,
+            "right": 0.0,
+            "forward": 0.0,
+            "escape": 0.0,
+            "wall_ms": 22.91515
+          }
+        ]
+      },
+      "ablated_walk": {
+        "mean": {
+          "left": 0.0,
+          "right": 0.0,
+          "forward": 0.0,
+          "escape": 0.0,
+          "wall_ms": 22.17856666666667
+        },
+        "trials": [
+          {
+            "left": 0.0,
+            "right": 0.0,
+            "forward": 0.0,
+            "escape": 0.0,
+            "wall_ms": 22.4751
+          },
+          {
+            "left": 0.0,
+            "right": 0.0,
+            "forward": 0.0,
+            "escape": 0.0,
+            "wall_ms": 22.9409332
+          },
+          {
+            "left": 0.0,
+            "right": 0.0,
+            "forward": 0.0,
+            "escape": 0.0,
+            "wall_ms": 21.1196668
+          }
+        ]
+      },
+      "checks": {
+        "direction_separation_hz": 532.6666666666667,
+        "synaptic_walk_gain_hz": 164.33333333333334,
+        "loom_escape": 1.0
+      }
+    }
+  },
+  "closed_loop_trials": {
+    "siliconfly": [
+      {
+        "seed": 11,
+        "condition": "normal",
+        "meals": 4,
+        "eggs": 3,
+        "distance": 4340.726910981227,
+        "alive": true,
+        "energy": 120.0,
+        "duration": 107.7,
+        "wall_ms_mean": 2.6400105472222224,
+        "wall_ms_p95": 3.395958
+      },
+      {
+        "seed": 29,
+        "condition": "normal",
+        "meals": 25,
+        "eggs": 3,
+        "distance": 9915.018548037926,
+        "alive": true,
+        "energy": 120.0,
+        "duration": 107.7,
+        "wall_ms_mean": 2.598956341666667,
+        "wall_ms_p95": 2.887708
+      },
+      {
+        "seed": 47,
+        "condition": "normal",
+        "meals": 5,
+        "eggs": 3,
+        "distance": 3574.9008883330475,
+        "alive": true,
+        "energy": 120.0,
+        "duration": 107.7,
+        "wall_ms_mean": 2.6204840583333335,
+        "wall_ms_p95": 2.880666
+      },
+      {
+        "seed": 11,
+        "condition": "ablation",
+        "meals": 0,
+        "eggs": 0,
+        "distance": 21.345892913212754,
+        "alive": true,
+        "energy": 3.1301157499219032,
+        "duration": 107.7,
+        "wall_ms_mean": 1.4008373722222223,
+        "wall_ms_p95": 1.595875
+      },
+      {
+        "seed": 29,
+        "condition": "ablation",
+        "meals": 0,
+        "eggs": 0,
+        "distance": 17.060103064364817,
+        "alive": true,
+        "energy": 3.1361158557103166,
+        "duration": 107.7,
+        "wall_ms_mean": 1.3854652972222221,
+        "wall_ms_p95": 1.549375
+      },
+      {
+        "seed": 47,
+        "condition": "ablation",
+        "meals": 0,
+        "eggs": 0,
+        "distance": 36.32523249716901,
+        "alive": true,
+        "energy": 3.109144674504386,
+        "duration": 107.7,
+        "wall_ms_mean": 1.4338951527777777,
+        "wall_ms_p95": 1.58725
+      },
+      {
+        "seed": 11,
+        "condition": "drought",
+        "meals": 0,
+        "eggs": 0,
+        "distance": 7334.989286818911,
+        "alive": false,
+        "energy": 0.0,
+        "duration": 106.8,
+        "wall_ms_mean": 2.6005930028011206,
+        "wall_ms_p95": 2.904041
+      },
+      {
+        "seed": 29,
+        "condition": "drought",
+        "meals": 0,
+        "eggs": 0,
+        "distance": 7239.891556961256,
+        "alive": false,
+        "energy": 0.0,
+        "duration": 107.39999999999999,
+        "wall_ms_mean": 2.6058592729805015,
+        "wall_ms_p95": 2.903917
+      },
+      {
+        "seed": 47,
+        "condition": "drought",
+        "meals": 0,
+        "eggs": 0,
+        "distance": 7478.28627907374,
+        "alive": false,
+        "energy": 0.0,
+        "duration": 106.5,
+        "wall_ms_mean": 2.5971550533707863,
+        "wall_ms_p95": 2.901542
+      }
+    ],
+    "flybrain": [
+      {
+        "seed": 11,
+        "condition": "normal",
+        "meals": 18,
+        "eggs": 2,
+        "distance": 3076.386036960989,
+        "alive": true,
+        "energy": 57.7997002053388,
+        "duration": 107.7,
+        "wall_ms_mean": 78.91517745555555,
+        "wall_ms_p95": 98.878375
+      },
+      {
+        "seed": 29,
+        "condition": "normal",
+        "meals": 5,
+        "eggs": 1,
+        "distance": 446.7967145790554,
+        "alive": true,
+        "energy": 40.3344845995893,
+        "duration": 107.7,
+        "wall_ms_mean": 94.15448619444444,
+        "wall_ms_p95": 98.953209
+      },
+      {
+        "seed": 47,
+        "condition": "normal",
+        "meals": 22,
+        "eggs": 2,
+        "distance": 4286.981519507196,
+        "alive": true,
+        "energy": 53.69822587268945,
+        "duration": 107.7,
+        "wall_ms_mean": 80.39246013611111,
+        "wall_ms_p95": 99.401833
+      },
+      {
+        "seed": 11,
+        "condition": "ablation",
+        "meals": 0,
+        "eggs": 0,
+        "distance": 0.0,
+        "alive": true,
+        "energy": 3.1600000000004336,
+        "duration": 107.7,
+        "wall_ms_mean": 8.835483208333333,
+        "wall_ms_p95": 9.110083
+      },
+      {
+        "seed": 29,
+        "condition": "ablation",
+        "meals": 0,
+        "eggs": 0,
+        "distance": 0.0,
+        "alive": true,
+        "energy": 3.1600000000004336,
+        "duration": 107.7,
+        "wall_ms_mean": 9.053794658333333,
+        "wall_ms_p95": 10.105708
+      },
+      {
+        "seed": 47,
+        "condition": "ablation",
+        "meals": 0,
+        "eggs": 0,
+        "distance": 0.0,
+        "alive": true,
+        "energy": 3.1600000000004336,
+        "duration": 107.7,
+        "wall_ms_mean": 9.557007411111112,
+        "wall_ms_p95": 12.239082999999999
+      },
+      {
+        "seed": 11,
+        "condition": "drought",
+        "meals": 0,
+        "eggs": 0,
+        "distance": 7126.632443531839,
+        "alive": false,
+        "energy": 0.0,
+        "duration": 107.7,
+        "wall_ms_mean": 88.61244000277777,
+        "wall_ms_p95": 101.878333
+      },
+      {
+        "seed": 29,
+        "condition": "drought",
+        "meals": 0,
+        "eggs": 0,
+        "distance": 7112.402464065722,
+        "alive": false,
+        "energy": 0.0,
+        "duration": 107.7,
+        "wall_ms_mean": 96.57658876666666,
+        "wall_ms_p95": 102.28212500000001
+      },
+      {
+        "seed": 47,
+        "condition": "drought",
+        "meals": 0,
+        "eggs": 0,
+        "distance": 7165.934291581127,
+        "alive": false,
+        "energy": 0.0,
+        "duration": 107.39999999999999,
+        "wall_ms_mean": 53.36231150696379,
+        "wall_ms_p95": 101.47325000000001
+      }
+    ]
+  },
+  "closed_loop_checks": [
+    {
+      "backend": "siliconfly",
+      "condition": "normal",
+      "seed": 11,
+      "passed": true
+    },
+    {
+      "backend": "siliconfly",
+      "condition": "normal",
+      "seed": 29,
+      "passed": true
+    },
+    {
+      "backend": "siliconfly",
+      "condition": "normal",
+      "seed": 47,
+      "passed": true
+    },
+    {
+      "backend": "siliconfly",
+      "condition": "ablation",
+      "seed": 11,
+      "passed": true
+    },
+    {
+      "backend": "siliconfly",
+      "condition": "ablation",
+      "seed": 29,
+      "passed": true
+    },
+    {
+      "backend": "siliconfly",
+      "condition": "ablation",
+      "seed": 47,
+      "passed": true
+    },
+    {
+      "backend": "siliconfly",
+      "condition": "drought",
+      "seed": 11,
+      "passed": true
+    },
+    {
+      "backend": "siliconfly",
+      "condition": "drought",
+      "seed": 29,
+      "passed": true
+    },
+    {
+      "backend": "siliconfly",
+      "condition": "drought",
+      "seed": 47,
+      "passed": true
+    },
+    {
+      "backend": "flybrain",
+      "condition": "normal",
+      "seed": 11,
+      "passed": true
+    },
+    {
+      "backend": "flybrain",
+      "condition": "normal",
+      "seed": 29,
+      "passed": true
+    },
+    {
+      "backend": "flybrain",
+      "condition": "normal",
+      "seed": 47,
+      "passed": true
+    },
+    {
+      "backend": "flybrain",
+      "condition": "ablation",
+      "seed": 11,
+      "passed": true
+    },
+    {
+      "backend": "flybrain",
+      "condition": "ablation",
+      "seed": 29,
+      "passed": true
+    },
+    {
+      "backend": "flybrain",
+      "condition": "ablation",
+      "seed": 47,
+      "passed": true
+    },
+    {
+      "backend": "flybrain",
+      "condition": "drought",
+      "seed": 11,
+      "passed": true
+    },
+    {
+      "backend": "flybrain",
+      "condition": "drought",
+      "seed": 29,
+      "passed": true
+    },
+    {
+      "backend": "flybrain",
+      "condition": "drought",
+      "seed": 47,
+      "passed": true
+    }
+  ],
+  "unreal_smoke": {
+    "status": "completed",
+    "success": true,
+    "error": null,
+    "checks": {
+      "six_independent_brains": true,
+      "natural_ecology": {
+        "moved_cm": {
+          "siliconfly": 940.0045820687984,
+          "flybrain": 674.8239473492057
+        },
+        "meals": 54,
+        "births": 8,
+        "fights": 38,
+        "alive": 11
+      },
+      "territory_combat": 2,
+      "player_defence": {
+        "hits": 1,
+        "health": 92
+      },
+      "player_strike": true,
+      "starvation_death": 6,
+      "ablation": {
+        "max_drift_cm": 3.0950729159803503,
+        "meals": 0,
+        "births": 0
+      },
+      "finite_outputs": true
+    }
+  },
+  "unreal_recovery": {
+    "status": "passed",
+    "stage": "capture",
+    "checks": {
+      "valley_to_lab": true,
+      "offline_freezes_movement_and_energy": true,
+      "service_recovery": true,
+      "lab_to_valley": true,
+      "second_lab_session": true
+    },
+    "error": null
+  },
+  "elderglen_regression": {
+    "status": "completed",
+    "success": true,
+    "checks": {
+      "spawn_grounded": true,
+      "walk_distance_cm": 577.7,
+      "sprint_speed_cm_s": 680.0,
+      "jump_height_cm": 92.0,
+      "map_blocks_movement": true,
+      "zoom_limits_cm": [
+        1100,
+        3000
+      ],
+      "village_bridge_ruins_camp_route": true,
+      "forest_route": true,
+      "bridge_rail_collision": true,
+      "house_collision": true,
+      "collision_free_decorations": 130
+    },
+    "error": null
+  },
+  "native_tests": {
+    "siliconfly_simtest": "pass",
+    "siliconfly_gpucheck": "pass",
+    "siliconfly_upstream_behaviortest": {
+      "passed": 16,
+      "failures": [
+        "FAIL  ledge attach + follow window edge: state=walking y=-79 ledge=false"
+      ]
+    },
+    "flybrain_rust_metal_unit_tests": "11 pass"
+  },
+  "limitations": [
+    "Authored goal selection, ecology and sensory encoding; neural motor control, not emergent fly social behaviour.",
+    "40ms neural windows decoupled from game time; no full biological realtime claim.",
+    "No synaptic fine tuning; only input/readout calibration.",
+    "SiliconFly synaptic ablation retains intrinsic noise; original zero-drift test failed, final criterion explicitly allows <50cm/108s drift and requires no feeding or brood.",
+    "Unreal death check uses a near-starvation fixture; natural drought mortality measured in the independent closed-loop trials."
+  ],
+  "map_check": {
+    "errors": 0,
+    "warnings": 0
+  }
+}

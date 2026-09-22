@@ -1,0 +1,1174 @@
+[
+  {
+    "name": "10-joint",
+    "reference": "10-joint",
+    "config": {
+      "sense_radius": 1500,
+      "separation": 1.8,
+      "alignment": 0.6,
+      "cohesion": 0.4,
+      "hunger": 90,
+      "thirst": 60,
+      "memory_seconds": 70,
+      "trail_lifetime": 100,
+      "brood_cost": 30,
+      "regrowth": 1,
+      "turn_gain": 0.75,
+      "motor_smoothing": 0.08,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "stage": 10,
+      "seed": 1701,
+      "name": "10-joint",
+      "synchronous": true,
+      "swarm": true,
+      "step": 0.4,
+      "duration": 600
+    },
+    "metrics": {
+      "elapsed": 600.3269653320312,
+      "wall_seconds": 686.3503638729453,
+      "stage": 10,
+      "seed": 1701,
+      "swarm": true,
+      "alive": 12,
+      "eggs": 0,
+      "births": 6,
+      "deaths": 0,
+      "starvation_deaths": 0,
+      "dehydration_deaths": 0,
+      "combat_deaths": 0,
+      "meals": 91,
+      "fights": 0,
+      "player_hits": 0,
+      "player_health": 100,
+      "food_delivered": 480.83197021484375,
+      "cyan_store": 198.35133361816406,
+      "amber_store": 222.48062133789062,
+      "goal_changes": 300,
+      "stuck_fraction": 0.013895119540393353,
+      "polarization": 0.5009868741035461,
+      "swarm_fraction": 0.1639426350593567,
+      "social_seconds": 984.8330688476562,
+      "coverage": 73,
+      "resource_visits": 13,
+      "batch_ms": 317.47015380859375,
+      "batches": 1501,
+      "status": "LIVE: SiliconFly + FlyBrainEngine / Metal",
+      "ablation": false,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "resources": [
+        {
+          "index": 0,
+          "amount": 22.444881439208984,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 1,
+          "amount": 31.50349998474121,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 2,
+          "amount": 29.75891876220703,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 3,
+          "amount": 35.831085205078125,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 4,
+          "amount": 212.8807373046875,
+          "owner": 0,
+          "claim": 18.813520431518555
+        },
+        {
+          "index": 5,
+          "amount": 280,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 6,
+          "amount": 169.77574157714844,
+          "owner": 0,
+          "claim": 14.207891464233398
+        },
+        {
+          "index": 7,
+          "amount": 220,
+          "owner": 1,
+          "claim": 2.3971781730651855
+        },
+        {
+          "index": 8,
+          "amount": 296.94232177734375,
+          "owner": 1,
+          "claim": 19.373746871948242
+        },
+        {
+          "index": 9,
+          "amount": 230,
+          "owner": 0,
+          "claim": 2.3651766777038574
+        },
+        {
+          "index": 10,
+          "amount": 230,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 11,
+          "amount": 260,
+          "owner": 0,
+          "claim": 1.0399197340011597
+        },
+        {
+          "index": 12,
+          "amount": 260,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 13,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 14,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 15,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 16,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        }
+      ],
+      "samples": 501,
+      "distance_cm": 640291.875,
+      "final_backend_counts": {
+        "siliconfly": 6,
+        "flybrain": 6
+      },
+      "batch_median_ms": 313.92730712890625,
+      "batch_p95_ms": 326.9009704589844,
+      "both_colonies_persist": true,
+      "observed_swarm_fraction": 0.16194968222392184,
+      "observed_social_seconds": 1023.4822861552238,
+      "late_swarm_fraction": 0.0681704217190806,
+      "late_social_seconds": 478.6831359863281,
+      "grouped_colony_seconds": 279.58257281780243,
+      "late_grouped_colony_seconds": 74.3818359375,
+      "late_excursion_eligible_colony_seconds": 89.97805786132812,
+      "late_excursion_grouped_colony_seconds": 8.39794921875,
+      "hydration_replenished": {
+        "siliconfly": 498.43488693237305,
+        "flybrain": 361.22526931762695
+      },
+      "reserve_conservation_max_error": 3.0517578125e-05,
+      "low_energy_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "low_hydration_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "total_observed_agent_seconds": 6944.724690794945,
+      "low_energy_fraction": 0.0,
+      "score": 78.757
+    },
+    "binary_sha256": "6dacc449a59729206aec393ce81d1cbb292f676d19720338571622deaf565a49",
+    "diagnostics": {
+      "opposing_colonies_nearby_seconds": 13.2008056640625,
+      "observed_goal_switches": {
+        "siliconfly": 144,
+        "flybrain": 144
+      },
+      "goal_samples": {
+        "siliconfly": {
+          "Forage": 1049,
+          "Carry home": 214,
+          "Scout": 47,
+          "Waking": 1,
+          "Patrol": 321,
+          "Nest": 1098,
+          "Recover": 2,
+          "Drink": 183
+        },
+        "flybrain": {
+          "Forage": 644,
+          "Carry home": 125,
+          "Scout": 15,
+          "Waking": 3,
+          "Patrol": 410,
+          "Nest": 1593,
+          "Defend": 26,
+          "Drink": 63
+        }
+      },
+      "longest_stall_seconds": 2.3994140625,
+      "territory_changes": [
+        {
+          "time": 227.20925903320312,
+          "resource": 8,
+          "previous_owner": 0,
+          "new_owner": 1
+        }
+      ],
+      "combat_examples": []
+    }
+  },
+  {
+    "name": "control-1701-social-0",
+    "reference": "10-joint",
+    "config": {
+      "sense_radius": 1500,
+      "separation": 1.8,
+      "alignment": 0.6,
+      "cohesion": 0.4,
+      "hunger": 90,
+      "thirst": 60,
+      "memory_seconds": 70,
+      "trail_lifetime": 100,
+      "brood_cost": 30,
+      "regrowth": 1,
+      "turn_gain": 0.75,
+      "motor_smoothing": 0.08,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "stage": 10,
+      "seed": 1701,
+      "name": "control-1701-social-0",
+      "synchronous": true,
+      "swarm": false,
+      "step": 0.4,
+      "duration": 600
+    },
+    "metrics": {
+      "elapsed": 600.3269653320312,
+      "wall_seconds": 664.5427802093327,
+      "stage": 10,
+      "seed": 1701,
+      "swarm": false,
+      "alive": 12,
+      "eggs": 0,
+      "births": 6,
+      "deaths": 0,
+      "starvation_deaths": 0,
+      "dehydration_deaths": 0,
+      "combat_deaths": 0,
+      "meals": 90,
+      "fights": 7,
+      "player_hits": 0,
+      "player_health": 100,
+      "food_delivered": 542.6807861328125,
+      "cyan_store": 202.68084716796875,
+      "amber_store": 279.9999084472656,
+      "goal_changes": 356,
+      "stuck_fraction": 0.006471371743828058,
+      "polarization": 0.4510138928890228,
+      "swarm_fraction": 0.08216992765665054,
+      "social_seconds": 983.08349609375,
+      "coverage": 83,
+      "resource_visits": 14,
+      "batch_ms": 310.214111328125,
+      "batches": 1501,
+      "status": "LIVE: SiliconFly + FlyBrainEngine / Metal",
+      "ablation": false,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "resources": [
+        {
+          "index": 0,
+          "amount": 21.491439819335938,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 1,
+          "amount": 10.90533447265625,
+          "owner": 0,
+          "claim": 2.32594633102417
+        },
+        {
+          "index": 2,
+          "amount": 12.686793327331543,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 3,
+          "amount": 1.4037362337112427,
+          "owner": 1,
+          "claim": 2.6819915771484375
+        },
+        {
+          "index": 4,
+          "amount": 280,
+          "owner": 0,
+          "claim": 10.80657958984375
+        },
+        {
+          "index": 5,
+          "amount": 280,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 6,
+          "amount": 220,
+          "owner": 0,
+          "claim": 11.603346824645996
+        },
+        {
+          "index": 7,
+          "amount": 220,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 8,
+          "amount": 336.6377868652344,
+          "owner": 1,
+          "claim": 19.48579216003418
+        },
+        {
+          "index": 9,
+          "amount": 230,
+          "owner": 0,
+          "claim": 6.037412643432617
+        },
+        {
+          "index": 10,
+          "amount": 230,
+          "owner": 1,
+          "claim": 14.332504272460938
+        },
+        {
+          "index": 11,
+          "amount": 260,
+          "owner": 0,
+          "claim": 1.6019675731658936
+        },
+        {
+          "index": 12,
+          "amount": 260,
+          "owner": 0,
+          "claim": 8.328977584838867
+        },
+        {
+          "index": 13,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 14,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 15,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 16,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        }
+      ],
+      "samples": 501,
+      "distance_cm": 697882.765625,
+      "final_backend_counts": {
+        "siliconfly": 6,
+        "flybrain": 6
+      },
+      "batch_median_ms": 310.08580017089844,
+      "batch_p95_ms": 329.3022155761719,
+      "both_colonies_persist": true,
+      "observed_swarm_fraction": 0.0796616160705261,
+      "observed_social_seconds": 991.0867737531662,
+      "late_swarm_fraction": 0.07192981493131667,
+      "late_social_seconds": 455.88873291015625,
+      "grouped_colony_seconds": 153.5841599702835,
+      "late_grouped_colony_seconds": 61.18505859375,
+      "late_excursion_eligible_colony_seconds": 69.58303833007812,
+      "late_excursion_grouped_colony_seconds": 2.3994140625,
+      "hydration_replenished": {
+        "siliconfly": 495.391788482666,
+        "flybrain": 460.482608795166
+      },
+      "reserve_conservation_max_error": 4.57763671875e-05,
+      "low_energy_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "low_hydration_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "total_observed_agent_seconds": 6978.3252729177475,
+      "low_energy_fraction": 0.0,
+      "score": 79.117
+    },
+    "binary_sha256": "6dacc449a59729206aec393ce81d1cbb292f676d19720338571622deaf565a49",
+    "diagnostics": {
+      "opposing_colonies_nearby_seconds": 38.3946533203125,
+      "observed_goal_switches": {
+        "siliconfly": 162,
+        "flybrain": 179
+      },
+      "goal_samples": {
+        "siliconfly": {
+          "Forage": 793,
+          "Carry home": 151,
+          "Waking": 1,
+          "Scout": 132,
+          "Patrol": 323,
+          "Nest": 1361,
+          "Drink": 139,
+          "Recover": 11
+        },
+        "flybrain": {
+          "Forage": 519,
+          "Carry home": 138,
+          "Nest": 1674,
+          "Scout": 123,
+          "Patrol": 342,
+          "Defend": 27,
+          "Drink": 88
+        }
+      },
+      "longest_stall_seconds": 4.798828125,
+      "territory_changes": [
+        {
+          "time": 290.8025207519531,
+          "resource": 4,
+          "previous_owner": 1,
+          "new_owner": 0
+        }
+      ],
+      "combat_examples": [
+        {
+          "time": 186.40676879882812,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 11,
+              "backend": "siliconfly",
+              "health_before": 53.14992141723633,
+              "health_after": 46.19990539550781,
+              "x": -111.23471287314649,
+              "y": 22.72546184325116
+            }
+          ]
+        },
+        {
+          "time": 191.20706176757812,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 11,
+              "backend": "siliconfly",
+              "health_before": 46.99989318847656,
+              "health_after": 38.99989318847656,
+              "x": -142.25231170618926,
+              "y": 93.08920865604017
+            }
+          ]
+        },
+        {
+          "time": 286.0036926269531,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 11,
+              "backend": "siliconfly",
+              "health_before": 38.99989318847656,
+              "health_after": 31.949878692626953,
+              "x": 47.127220313770586,
+              "y": 120.05201000887999
+            }
+          ]
+        },
+        {
+          "time": 288.4031066894531,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 11,
+              "backend": "siliconfly",
+              "health_before": 32.7498664855957,
+              "health_after": 24.749866485595703,
+              "x": -301.56899451167595,
+              "y": -23.745937772983353
+            }
+          ]
+        },
+        {
+          "time": 518.7468872070312,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 10,
+              "backend": "siliconfly",
+              "health_before": 59.64982223510742,
+              "health_after": 52.74980545043945,
+              "x": -127.6264829545822,
+              "y": 5.961725084644733
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "control-431-social-1",
+    "reference": "10-joint",
+    "config": {
+      "sense_radius": 1500,
+      "separation": 1.8,
+      "alignment": 0.6,
+      "cohesion": 0.4,
+      "hunger": 90,
+      "thirst": 60,
+      "memory_seconds": 70,
+      "trail_lifetime": 100,
+      "brood_cost": 30,
+      "regrowth": 1,
+      "turn_gain": 0.75,
+      "motor_smoothing": 0.08,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "stage": 10,
+      "seed": 431,
+      "name": "control-431-social-1",
+      "synchronous": true,
+      "swarm": true,
+      "step": 0.4,
+      "duration": 600
+    },
+    "metrics": {
+      "elapsed": 600.3269653320312,
+      "wall_seconds": 691.1432123742998,
+      "stage": 10,
+      "seed": 431,
+      "swarm": true,
+      "alive": 12,
+      "eggs": 0,
+      "births": 6,
+      "deaths": 0,
+      "starvation_deaths": 0,
+      "dehydration_deaths": 0,
+      "combat_deaths": 0,
+      "meals": 95,
+      "fights": 1,
+      "player_hits": 0,
+      "player_health": 100,
+      "food_delivered": 543.8124389648438,
+      "cyan_store": 215.54403686523438,
+      "amber_store": 268.2684326171875,
+      "goal_changes": 323,
+      "stuck_fraction": 0.009103137999773026,
+      "polarization": 0.46639421582221985,
+      "swarm_fraction": 0.11113211512565613,
+      "social_seconds": 1033.6829833984375,
+      "coverage": 65,
+      "resource_visits": 12,
+      "batch_ms": 322.6261291503906,
+      "batches": 1501,
+      "status": "LIVE: SiliconFly + FlyBrainEngine / Metal",
+      "ablation": false,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "resources": [
+        {
+          "index": 0,
+          "amount": 22.511077880859375,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 1,
+          "amount": 7.654989719390869,
+          "owner": 0,
+          "claim": 2.1579575538635254
+        },
+        {
+          "index": 2,
+          "amount": 2.678467273712158,
+          "owner": 1,
+          "claim": 2.7039783000946045
+        },
+        {
+          "index": 3,
+          "amount": 24.083250045776367,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 4,
+          "amount": 251.88186645507812,
+          "owner": 0,
+          "claim": 19.277708053588867
+        },
+        {
+          "index": 5,
+          "amount": 224.61807250976562,
+          "owner": 1,
+          "claim": 19.29371452331543
+        },
+        {
+          "index": 6,
+          "amount": 183.78726196289062,
+          "owner": 0,
+          "claim": 7.373184680938721
+        },
+        {
+          "index": 7,
+          "amount": 220,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 8,
+          "amount": 258.839599609375,
+          "owner": 0,
+          "claim": 9.092021942138672
+        },
+        {
+          "index": 9,
+          "amount": 230,
+          "owner": 0,
+          "claim": 1.5971648693084717
+        },
+        {
+          "index": 10,
+          "amount": 230,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 11,
+          "amount": 260,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 12,
+          "amount": 260,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 13,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 14,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 15,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 16,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        }
+      ],
+      "samples": 501,
+      "distance_cm": 701596.76171875,
+      "final_backend_counts": {
+        "siliconfly": 6,
+        "flybrain": 6
+      },
+      "batch_median_ms": 317.0172882080078,
+      "batch_p95_ms": 331.14837646484375,
+      "both_colonies_persist": true,
+      "observed_swarm_fraction": 0.10954901335781984,
+      "observed_social_seconds": 1055.8702334165573,
+      "late_swarm_fraction": 0.08701593524615003,
+      "late_social_seconds": 526.6714477539062,
+      "grouped_colony_seconds": 218.378622174263,
+      "late_grouped_colony_seconds": 93.5771484375,
+      "late_excursion_eligible_colony_seconds": 81.580078125,
+      "late_excursion_grouped_colony_seconds": 4.798828125,
+      "hydration_replenished": {
+        "siliconfly": 483.04334259033203,
+        "flybrain": 402.0018424987793
+      },
+      "reserve_conservation_max_error": 3.0517578125e-05,
+      "low_energy_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "low_hydration_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "total_observed_agent_seconds": 6989.125108122826,
+      "low_energy_fraction": 0.0,
+      "score": 78.153
+    },
+    "binary_sha256": "6dacc449a59729206aec393ce81d1cbb292f676d19720338571622deaf565a49",
+    "diagnostics": {
+      "opposing_colonies_nearby_seconds": 7.200439453125,
+      "observed_goal_switches": {
+        "siliconfly": 164,
+        "flybrain": 144
+      },
+      "goal_samples": {
+        "siliconfly": {
+          "Forage": 1102,
+          "Carry home": 174,
+          "Scout": 38,
+          "Patrol": 275,
+          "Nest": 1182,
+          "Defend": 16,
+          "Drink": 131
+        },
+        "flybrain": {
+          "Forage": 646,
+          "Carry home": 146,
+          "Scout": 8,
+          "Patrol": 346,
+          "Nest": 1688,
+          "Drink": 79
+        }
+      },
+      "longest_stall_seconds": 3.6002197265625,
+      "territory_changes": [
+        {
+          "time": 193.60720825195312,
+          "resource": 4,
+          "previous_owner": 0,
+          "new_owner": 1
+        },
+        {
+          "time": 266.8083801269531,
+          "resource": 4,
+          "previous_owner": 1,
+          "new_owner": 0
+        },
+        {
+          "time": 270.4075012207031,
+          "resource": 8,
+          "previous_owner": 1,
+          "new_owner": 0
+        },
+        {
+          "time": 329.1931457519531,
+          "resource": 8,
+          "previous_owner": 0,
+          "new_owner": 1
+        },
+        {
+          "time": 480.3562316894531,
+          "resource": 8,
+          "previous_owner": 1,
+          "new_owner": 0
+        }
+      ],
+      "combat_examples": [
+        {
+          "time": 170.80581665039062,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 7,
+              "backend": "flybrain",
+              "health_before": 52.59992980957031,
+              "health_after": 45.199920654296875,
+              "x": -316.81756787706985,
+              "y": 1406.3621203764737
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "control-431-social-0",
+    "reference": "10-joint",
+    "config": {
+      "sense_radius": 1500,
+      "separation": 1.8,
+      "alignment": 0.6,
+      "cohesion": 0.4,
+      "hunger": 90,
+      "thirst": 60,
+      "memory_seconds": 70,
+      "trail_lifetime": 100,
+      "brood_cost": 30,
+      "regrowth": 1,
+      "turn_gain": 0.75,
+      "motor_smoothing": 0.08,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "stage": 10,
+      "seed": 431,
+      "name": "control-431-social-0",
+      "synchronous": true,
+      "swarm": false,
+      "step": 0.4,
+      "duration": 600
+    },
+    "metrics": {
+      "elapsed": 600.3269653320312,
+      "wall_seconds": 705.3959056660533,
+      "stage": 10,
+      "seed": 431,
+      "swarm": false,
+      "alive": 12,
+      "eggs": 0,
+      "births": 6,
+      "deaths": 0,
+      "starvation_deaths": 0,
+      "dehydration_deaths": 0,
+      "combat_deaths": 0,
+      "meals": 96,
+      "fights": 7,
+      "player_hits": 0,
+      "player_health": 100,
+      "food_delivered": 551.3250732421875,
+      "cyan_store": 254.3999481201172,
+      "amber_store": 236.9250946044922,
+      "goal_changes": 344,
+      "stuck_fraction": 0.008271759375929832,
+      "polarization": 0.43645724654197693,
+      "swarm_fraction": 0.07348606735467911,
+      "social_seconds": 964.887939453125,
+      "coverage": 87,
+      "resource_visits": 15,
+      "batch_ms": 318.53192138671875,
+      "batches": 1501,
+      "status": "LIVE: SiliconFly + FlyBrainEngine / Metal",
+      "ablation": false,
+      "neural_ms": 20,
+      "colony_limit": 6,
+      "resources": [
+        {
+          "index": 0,
+          "amount": 32.049251556396484,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 1,
+          "amount": 33.46370315551758,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 2,
+          "amount": 7.818839073181152,
+          "owner": 1,
+          "claim": 1.1539897918701172
+        },
+        {
+          "index": 3,
+          "amount": 26.364320755004883,
+          "owner": 1,
+          "claim": 0.13000431656837463
+        },
+        {
+          "index": 4,
+          "amount": 235.353759765625,
+          "owner": 0,
+          "claim": 18.893552780151367
+        },
+        {
+          "index": 5,
+          "amount": 280,
+          "owner": 1,
+          "claim": 12.779374122619629
+        },
+        {
+          "index": 6,
+          "amount": 220,
+          "owner": 0,
+          "claim": 5.470752239227295
+        },
+        {
+          "index": 7,
+          "amount": 220,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 8,
+          "amount": 319.3086242675781,
+          "owner": 1,
+          "claim": 1.8580433130264282
+        },
+        {
+          "index": 9,
+          "amount": 230,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 10,
+          "amount": 230,
+          "owner": 1,
+          "claim": 2.2105352878570557
+        },
+        {
+          "index": 11,
+          "amount": 260,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 12,
+          "amount": 260,
+          "owner": 1,
+          "claim": 0.5079361200332642
+        },
+        {
+          "index": 13,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 14,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 15,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        },
+        {
+          "index": 16,
+          "amount": 1000,
+          "owner": -1,
+          "claim": 0
+        }
+      ],
+      "samples": 501,
+      "distance_cm": 715739.783203125,
+      "final_backend_counts": {
+        "siliconfly": 6,
+        "flybrain": 6
+      },
+      "batch_median_ms": 318.3086853027344,
+      "batch_p95_ms": 329.7059631347656,
+      "both_colonies_persist": true,
+      "observed_swarm_fraction": 0.07340439279764703,
+      "observed_social_seconds": 985.084253013134,
+      "late_swarm_fraction": 0.07150813117914359,
+      "late_social_seconds": 466.68609619140625,
+      "grouped_colony_seconds": 152.37910068035126,
+      "late_grouped_colony_seconds": 71.982421875,
+      "late_excursion_eligible_colony_seconds": 136.76663208007812,
+      "late_excursion_grouped_colony_seconds": 5.99853515625,
+      "hydration_replenished": {
+        "siliconfly": 484.55411529541016,
+        "flybrain": 355.5050811767578
+      },
+      "reserve_conservation_max_error": 3.0517578125e-05,
+      "low_energy_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "low_hydration_agent_seconds": {
+        "siliconfly": 0.0,
+        "flybrain": 0.0
+      },
+      "total_observed_agent_seconds": 6948.325093626976,
+      "low_energy_fraction": 0.0,
+      "score": 79.575
+    },
+    "binary_sha256": "6dacc449a59729206aec393ce81d1cbb292f676d19720338571622deaf565a49",
+    "diagnostics": {
+      "opposing_colonies_nearby_seconds": 30.00118637084961,
+      "observed_goal_switches": {
+        "siliconfly": 164,
+        "flybrain": 166
+      },
+      "goal_samples": {
+        "siliconfly": {
+          "Forage": 870,
+          "Carry home": 169,
+          "Scout": 96,
+          "Waking": 1,
+          "Recover": 34,
+          "Patrol": 313,
+          "Nest": 1277,
+          "Drink": 152
+        },
+        "flybrain": {
+          "Forage": 488,
+          "Carry home": 112,
+          "Scout": 118,
+          "Waking": 1,
+          "Defend": 13,
+          "Recover": 2,
+          "Patrol": 327,
+          "Nest": 1764,
+          "Drink": 60
+        }
+      },
+      "longest_stall_seconds": 1.2000732421875,
+      "territory_changes": [
+        {
+          "time": 173.20596313476562,
+          "resource": 4,
+          "previous_owner": 1,
+          "new_owner": 0
+        },
+        {
+          "time": 196.00735473632812,
+          "resource": 8,
+          "previous_owner": 1,
+          "new_owner": 0
+        },
+        {
+          "time": 296.8010559082031,
+          "resource": 8,
+          "previous_owner": 0,
+          "new_owner": 1
+        },
+        {
+          "time": 333.9919738769531,
+          "resource": 8,
+          "previous_owner": 1,
+          "new_owner": 0
+        },
+        {
+          "time": 403.5749816894531,
+          "resource": 8,
+          "previous_owner": 0,
+          "new_owner": 1
+        },
+        {
+          "time": 429.9685363769531,
+          "resource": 8,
+          "previous_owner": 1,
+          "new_owner": 0
+        },
+        {
+          "time": 493.5530090332031,
+          "resource": 8,
+          "previous_owner": 0,
+          "new_owner": 1
+        },
+        {
+          "time": 547.5398559570312,
+          "resource": 8,
+          "previous_owner": 1,
+          "new_owner": 0
+        }
+      ],
+      "combat_examples": [
+        {
+          "time": 59.19938278198242,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 9,
+              "backend": "siliconfly",
+              "health_before": 48.04999923706055,
+              "health_after": 41.24998092651367,
+              "x": -113.34903617701859,
+              "y": -64.81775524774845
+            }
+          ]
+        },
+        {
+          "time": 60.39936447143555,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 9,
+              "backend": "siliconfly",
+              "health_before": 41.24998092651367,
+              "health_after": 34.4499626159668,
+              "x": -99.87177838810408,
+              "y": -68.6077826377021
+            }
+          ]
+        },
+        {
+          "time": 61.59934616088867,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 9,
+              "backend": "siliconfly",
+              "health_before": 34.4499626159668,
+              "health_after": 27.649944305419922,
+              "x": -80.09433611710725,
+              "y": -98.2583172202498
+            }
+          ]
+        },
+        {
+          "time": 84.40055084228516,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 11,
+              "backend": "siliconfly",
+              "health_before": 53.14992141723633,
+              "health_after": 45.14992141723633,
+              "x": -374.290620144426,
+              "y": 1242.3576345419935
+            }
+          ]
+        },
+        {
+          "time": 86.80069732666016,
+          "strikes": 1,
+          "injured": [
+            {
+              "id": 11,
+              "backend": "siliconfly",
+              "health_before": 45.14992141723633,
+              "health_after": 37.14992141723633,
+              "x": -604.1109179967648,
+              "y": 1191.0245705519571
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "error": null,
+  "explanation": "The failed nest-player test teleported NPC1 onto the exact spawn position of NPC2. Their collision bodies overlapped and stayed blocked despite live motor output. The corrected fixture keeps normal separated spawn positions.",
+  "cases": [
+    {
+      "overlapping_fixture": true,
+      "samples": 20,
+      "observed_seconds": 19.146752066910267,
+      "player_hits": 0,
+      "agents": [
+        {
+          "id": 1,
+          "distance_cm": 0,
+          "x": -2800,
+          "y": -700
+        },
+        {
+          "id": 2,
+          "distance_cm": 0,
+          "x": -2800,
+          "y": -700
+        },
+        {
+          "id": 3,
+          "distance_cm": 1645.1307373046875,
+          "x": -2839.684538960498,
+          "y": -615.4961158042014
+        }
+      ]
+    },
+    {
+      "overlapping_fixture": false,
+      "samples": 20,
+      "observed_seconds": 19.153584085404873,
+      "player_hits": 13,
+      "agents": [
+        {
+          "id": 1,
+          "distance_cm": 1427.7701416015625,
+          "x": -3049.1520723186163,
+          "y": -1096.0131796680323
+        },
+        {
+          "id": 2,
+          "distance_cm": 680.1607055664062,
+          "x": -3128.69555885125,
+          "y": -924.0084419538009
+        },
+        {
+          "id": 3,
+          "distance_cm": 2016.1910400390625,
+          "x": -3000.4486672919693,
+          "y": -793.208432758919
+        }
+      ]
+    }
+  ]
+}

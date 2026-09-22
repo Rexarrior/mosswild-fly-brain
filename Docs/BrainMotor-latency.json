@@ -1,0 +1,310 @@
+{
+  "scope": "30 full-brain isolated-body trials. Sensor-to-actuator delay is imposed in body time; rendering/collision/social dynamics are excluded. Prediction extrapolates only the preceding neural motor command.",
+  "neural_ms": 20,
+  "body_step": 0.4,
+  "motor_smoothing": 0.08,
+  "turn_gain": 0.75,
+  "seed": 1854,
+  "results": [
+    {
+      "name": "siliconfly-form0-delay0.0-predict0",
+      "backend": "siliconfly",
+      "form": 0,
+      "delay": 0.0,
+      "predict": false,
+      "completed_waypoints": 4,
+      "body_seconds": 41.6,
+      "wall_seconds": 0.2982129999982135
+    },
+    {
+      "name": "siliconfly-form0-delay0.2-predict0",
+      "backend": "siliconfly",
+      "form": 0,
+      "delay": 0.2,
+      "predict": false,
+      "completed_waypoints": 3,
+      "body_seconds": 120.0,
+      "wall_seconds": 0.4435988750010438
+    },
+    {
+      "name": "siliconfly-form0-delay0.2-predict1",
+      "backend": "siliconfly",
+      "form": 0,
+      "delay": 0.2,
+      "predict": true,
+      "completed_waypoints": 4,
+      "body_seconds": 46.400000000000006,
+      "wall_seconds": 0.17537050000100862
+    },
+    {
+      "name": "siliconfly-form0-delay0.4-predict0",
+      "backend": "siliconfly",
+      "form": 0,
+      "delay": 0.4,
+      "predict": false,
+      "completed_waypoints": 0,
+      "body_seconds": 120.0,
+      "wall_seconds": 0.44008108300113236
+    },
+    {
+      "name": "siliconfly-form0-delay0.4-predict1",
+      "backend": "siliconfly",
+      "form": 0,
+      "delay": 0.4,
+      "predict": true,
+      "completed_waypoints": 4,
+      "body_seconds": 37.6,
+      "wall_seconds": 0.14211995900041074
+    },
+    {
+      "name": "siliconfly-form1-delay0.0-predict0",
+      "backend": "siliconfly",
+      "form": 1,
+      "delay": 0.0,
+      "predict": false,
+      "completed_waypoints": 4,
+      "body_seconds": 41.2,
+      "wall_seconds": 0.15397437499996158
+    },
+    {
+      "name": "siliconfly-form1-delay0.2-predict0",
+      "backend": "siliconfly",
+      "form": 1,
+      "delay": 0.2,
+      "predict": false,
+      "completed_waypoints": 0,
+      "body_seconds": 120.0,
+      "wall_seconds": 0.4409318340003665
+    },
+    {
+      "name": "siliconfly-form1-delay0.2-predict1",
+      "backend": "siliconfly",
+      "form": 1,
+      "delay": 0.2,
+      "predict": true,
+      "completed_waypoints": 4,
+      "body_seconds": 40.400000000000006,
+      "wall_seconds": 0.15111270800116472
+    },
+    {
+      "name": "siliconfly-form1-delay0.4-predict0",
+      "backend": "siliconfly",
+      "form": 1,
+      "delay": 0.4,
+      "predict": false,
+      "completed_waypoints": 0,
+      "body_seconds": 120.0,
+      "wall_seconds": 0.4373509170000034
+    },
+    {
+      "name": "siliconfly-form1-delay0.4-predict1",
+      "backend": "siliconfly",
+      "form": 1,
+      "delay": 0.4,
+      "predict": true,
+      "completed_waypoints": 4,
+      "body_seconds": 40.400000000000006,
+      "wall_seconds": 0.15079720900030225
+    },
+    {
+      "name": "siliconfly-form2-delay0.0-predict0",
+      "backend": "siliconfly",
+      "form": 2,
+      "delay": 0.0,
+      "predict": false,
+      "completed_waypoints": 4,
+      "body_seconds": 30.400000000000002,
+      "wall_seconds": 0.11396716700255638
+    },
+    {
+      "name": "siliconfly-form2-delay0.2-predict0",
+      "backend": "siliconfly",
+      "form": 2,
+      "delay": 0.2,
+      "predict": false,
+      "completed_waypoints": 0,
+      "body_seconds": 120.0,
+      "wall_seconds": 0.4445151670006453
+    },
+    {
+      "name": "siliconfly-form2-delay0.2-predict1",
+      "backend": "siliconfly",
+      "form": 2,
+      "delay": 0.2,
+      "predict": true,
+      "completed_waypoints": 4,
+      "body_seconds": 30.8,
+      "wall_seconds": 0.11674929199944017
+    },
+    {
+      "name": "siliconfly-form2-delay0.4-predict0",
+      "backend": "siliconfly",
+      "form": 2,
+      "delay": 0.4,
+      "predict": false,
+      "completed_waypoints": 0,
+      "body_seconds": 120.0,
+      "wall_seconds": 0.4424215409999306
+    },
+    {
+      "name": "siliconfly-form2-delay0.4-predict1",
+      "backend": "siliconfly",
+      "form": 2,
+      "delay": 0.4,
+      "predict": true,
+      "completed_waypoints": 4,
+      "body_seconds": 30.400000000000002,
+      "wall_seconds": 0.11427562500102795
+    },
+    {
+      "name": "flybrain-form0-delay0.0-predict0",
+      "backend": "flybrain",
+      "form": 0,
+      "delay": 0.0,
+      "predict": false,
+      "completed_waypoints": 4,
+      "body_seconds": 22.0,
+      "wall_seconds": 1.5539232500013895
+    },
+    {
+      "name": "flybrain-form0-delay0.2-predict0",
+      "backend": "flybrain",
+      "form": 0,
+      "delay": 0.2,
+      "predict": false,
+      "completed_waypoints": 4,
+      "body_seconds": 22.8,
+      "wall_seconds": 1.1953050830015854
+    },
+    {
+      "name": "flybrain-form0-delay0.2-predict1",
+      "backend": "flybrain",
+      "form": 0,
+      "delay": 0.2,
+      "predict": true,
+      "completed_waypoints": 4,
+      "body_seconds": 22.400000000000002,
+      "wall_seconds": 1.245922124999197
+    },
+    {
+      "name": "flybrain-form0-delay0.4-predict0",
+      "backend": "flybrain",
+      "form": 0,
+      "delay": 0.4,
+      "predict": false,
+      "completed_waypoints": 4,
+      "body_seconds": 26.0,
+      "wall_seconds": 1.4475081670025247
+    },
+    {
+      "name": "flybrain-form0-delay0.4-predict1",
+      "backend": "flybrain",
+      "form": 0,
+      "delay": 0.4,
+      "predict": true,
+      "completed_waypoints": 4,
+      "body_seconds": 22.400000000000002,
+      "wall_seconds": 1.2374683750022086
+    },
+    {
+      "name": "flybrain-form1-delay0.0-predict0",
+      "backend": "flybrain",
+      "form": 1,
+      "delay": 0.0,
+      "predict": false,
+      "completed_waypoints": 4,
+      "body_seconds": 16.400000000000002,
+      "wall_seconds": 0.8838455420009268
+    },
+    {
+      "name": "flybrain-form1-delay0.2-predict0",
+      "backend": "flybrain",
+      "form": 1,
+      "delay": 0.2,
+      "predict": false,
+      "completed_waypoints": 4,
+      "body_seconds": 19.200000000000003,
+      "wall_seconds": 1.9298013750012615
+    },
+    {
+      "name": "flybrain-form1-delay0.2-predict1",
+      "backend": "flybrain",
+      "form": 1,
+      "delay": 0.2,
+      "predict": true,
+      "completed_waypoints": 4,
+      "body_seconds": 18.0,
+      "wall_seconds": 1.008936916001403
+    },
+    {
+      "name": "flybrain-form1-delay0.4-predict0",
+      "backend": "flybrain",
+      "form": 1,
+      "delay": 0.4,
+      "predict": false,
+      "completed_waypoints": 4,
+      "body_seconds": 23.200000000000003,
+      "wall_seconds": 1.241075166999508
+    },
+    {
+      "name": "flybrain-form1-delay0.4-predict1",
+      "backend": "flybrain",
+      "form": 1,
+      "delay": 0.4,
+      "predict": true,
+      "completed_waypoints": 4,
+      "body_seconds": 18.8,
+      "wall_seconds": 1.0416962090021116
+    },
+    {
+      "name": "flybrain-form2-delay0.0-predict0",
+      "backend": "flybrain",
+      "form": 2,
+      "delay": 0.0,
+      "predict": false,
+      "completed_waypoints": 4,
+      "body_seconds": 15.600000000000001,
+      "wall_seconds": 1.4130212079980993
+    },
+    {
+      "name": "flybrain-form2-delay0.2-predict0",
+      "backend": "flybrain",
+      "form": 2,
+      "delay": 0.2,
+      "predict": false,
+      "completed_waypoints": 4,
+      "body_seconds": 16.400000000000002,
+      "wall_seconds": 0.9094370000020717
+    },
+    {
+      "name": "flybrain-form2-delay0.2-predict1",
+      "backend": "flybrain",
+      "form": 2,
+      "delay": 0.2,
+      "predict": true,
+      "completed_waypoints": 4,
+      "body_seconds": 16.400000000000002,
+      "wall_seconds": 1.5052555410002242
+    },
+    {
+      "name": "flybrain-form2-delay0.4-predict0",
+      "backend": "flybrain",
+      "form": 2,
+      "delay": 0.4,
+      "predict": false,
+      "completed_waypoints": 4,
+      "body_seconds": 20.400000000000002,
+      "wall_seconds": 1.6679266249993816
+    },
+    {
+      "name": "flybrain-form2-delay0.4-predict1",
+      "backend": "flybrain",
+      "form": 2,
+      "delay": 0.4,
+      "predict": true,
+      "completed_waypoints": 4,
+      "body_seconds": 16.400000000000002,
+      "wall_seconds": 1.2669506249985716
+    }
+  ]
+}
